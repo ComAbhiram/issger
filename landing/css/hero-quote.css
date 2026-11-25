@@ -668,3 +668,10 @@
 
 /* WhatsApp float only after the hero (set by the inline script before the float) */
 html:not(.wa-show) #WhatsappContainer{opacity:0;pointer-events:none}
+
+/* team photo: soft fade on all four edges so it dissolves into the dark hero (--fade = width of each edge fade) */
+#HeroQuote .hq-visual .hq-art.hq-photo { --fade: 18%;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent), linear-gradient(to bottom, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent), linear-gradient(to bottom, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+  mask-composite: intersect; }

@@ -1267,3 +1267,25 @@ function render_phone_leads_page()
 }
 
 */
+
+/**
+ * Enquiry success page for campaign tracking. Any successful WPForms ajax submit sends the visitor
+ * to /?enquiry=success&form=<id>, which renders thank-you.php (no WP page needed). Use that URL as the
+ * conversion URL in Google Ads / Analytics; the page also pushes dataLayer event "enquiry_success".
+ */
+add_action('template_redirect', function () {
+	if (isset($_GET['enquiry']) && $_GET['enquiry'] === 'success') {
+		status_header(200);
+		nocache_headers();
+		add_filter('wp_robots', 'wp_robots_no_robots');
+		include get_stylesheet_directory() . '/thank-you.php';
+		exit;
+	}
+});
+add_action('wp_footer', function () {
+	if (isset($_GET['enquiry'])) {
+		return;
+	}
+	$url = esc_url_raw(add_query_arg('enquiry', 'success', home_url('/')));
+	echo '<script>jQuery(document).on("wpformsAjaxSubmitSuccess",function(e,r){if(r&&r.data&&r.data.redirect_url){return;}var f=parseInt(jQuery(e.target).data("formid"),10)||0;window.location.href=' . wp_json_encode($url) . '+(f?"&form="+f:"");});</script>';
+}, 100);

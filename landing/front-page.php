@@ -77,16 +77,7 @@ if (file_exists($whyChoose_file)) {
                 </div>
 
                 <div class="hq-visual">
-                    <picture><source media="(min-width: 768px)" srcset="<?php echo $themeUri; ?>/images/hero-bg-art.webp"><img class="hq-art" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="1100" height="619" alt="" fetchpriority="high" decoding="async"></picture>
-                    <div class="hq-laptop">
-                        <div class="hq-rot">
-                            <picture><source media="(min-width: 768px)" srcset="<?php echo $themeUri; ?>/images/hero-laptop-480.webp 480w, <?php echo $themeUri; ?>/images/hero-laptop-768.webp 768w, <?php echo $themeUri; ?>/images/hero-laptop.webp 1000w" sizes="(max-width: 991px) 340px, 600px"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="1536" height="1024" alt="Ein Inter Smart Webdesign auf einem Laptop" decoding="async"></picture>
-                            <div class="hq-screen" aria-hidden="true" data-src="<?php echo $themeUri; ?>/videos/hero-screen.mp4">
-                                <video class="hq-video" muted loop playsinline preload="none" width="960" height="540" tabindex="-1" disablepictureinpicture disableremoteplayback data-poster="<?php echo $themeUri; ?>/images/hero-screen-poster.webp">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
+                    <picture><source media="(min-width: 768px)" srcset="<?php echo $themeUri; ?>/images/hero-team-640.webp 640w, <?php echo $themeUri; ?>/images/hero-team-1100.webp 1100w, <?php echo $themeUri; ?>/images/hero-team.webp 1672w" sizes="(max-width: 991px) 560px, 50vw"><img class="hq-art hq-photo" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="1672" height="940" alt="Das Inter Smart Team bespricht eine Kampagne am Laptop" fetchpriority="high" decoding="async"></picture>
                 </div>
 
                 <div class="hq-formcol">
