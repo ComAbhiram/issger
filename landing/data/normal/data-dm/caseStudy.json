@@ -1,0 +1,77 @@
+{
+  "section": {
+    "smallTitle": "Case Studies",
+    "description": "If your website feels like everyone else’s, your audience will treat you like everyone else. We help you cross that line. Growth needs something sharper, louder, and a lot more intentional."
+  },
+  "button": {
+    "text": "View all Case Studies"
+  },
+  "items": [
+    {
+      "category": null,
+      "title": "RS ReiseMobile",
+      "description": "Executed a performance-driven digital marketing strategy focused on high-intent leads and revenue growth.",
+      "metrics": [
+        {
+          "prefix": "€",
+          "value": "217,500",
+          "suffix": "↑",
+          "label": "Revenue Generated"
+        },
+        {
+          "prefix": "",
+          "value": "5",
+          "suffix": "↑",
+          "label": "Premium Vehicles Sold"
+        }
+      ],
+      "summary": "High-quality leads translated into strong revenue and successful high-value conversions in 21 days.",
+      "image": "images/reisemobile.jpeg",
+      "video": "videos/reisimobile.mp4"
+    },
+    {
+      "category": null,
+      "title": "Hilker Consulting",
+      "description": "Executed a data-driven SEO strategy to improve visibility, rankings, and organic traffic performance.",
+      "metrics": [
+        {
+          "prefix": "",
+          "value": "4.49M",
+          "suffix": "↑",
+          "label": "Total Impressions"
+        },
+        {
+          "prefix": "",
+          "value": "34.9K",
+          "suffix": "↑",
+          "label": "Total Clicks"
+        }
+      ],
+      "summary": "Improved keyword rankings with core terms in Top 5 positions, driving consistent organic visibility and traffic in 8 months.",
+      "image": "images/hilker.jpeg",
+      "video": "videos/Hilker.mp4"
+    },
+    {
+      "category": null,
+      "title": "PP Apparels",
+      "description": "Executed a cost-efficient lead generation campaign targeting high-intent audiences in the UAE.",
+      "metrics": [
+        {
+          "prefix": "",
+          "value": "212",
+          "suffix": "↑",
+          "label": "Leads Generated"
+        },
+        {
+          "prefix": "AED ",
+          "value": "9.38",
+          "suffix": "↓",
+          "label": "Cost Per Lead"
+        }
+      ],
+      "summary": "Achieved strong lead volume with highly cost-effective acquisition in just 30 days.",
+      "image": "images/pp-apparels.jpeg",
+      "video": "videos/PP Apparels.mp4"
+    }
+  ]
+}

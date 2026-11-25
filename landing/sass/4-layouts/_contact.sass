@@ -1,0 +1,256 @@
+.contactPage
+    #contact
+        position: relative
+        padding: 40px 0
+        background: $white
+        z-index: 0
+        @media only screen and (min-width:992px)
+            padding: 40px 0 0
+        @media only screen and (min-width:1200px)
+            padding: 60px 0 0
+        @media only screen and (min-width:1441px)
+            padding: 120px 0 0
+        .mainTxt
+            max-width: 375px
+            margin-bottom: 25px
+            @media only screen and (min-width:768px)
+                margin-bottom: 40px
+            .title
+                color: $black
+                font: 200 25px/35px $fontstack1
+                @media only screen and (min-width:478px)
+                    font: 200 30px/40px $fontstack1
+                @media only screen and (min-width:992px)
+                    font: 200 35px/45px $fontstack1
+                @media only screen and (min-width:1351px)
+                    font: 200 40px/50px $fontstack1
+                @media only screen and (min-width:1441px)
+                    font: 200 50px/60px $fontstack1
+                strong
+                    display: block
+                    font-weight: 600
+        .container
+            position: relative
+        .callImg
+            position: absolute
+            z-index: -1
+            top: -24px
+            right: 2%
+            max-width: 80px
+            height: auto
+            opacity: 0.2
+            transform: rotateY(180deg)
+            display: none
+            @media only screen and (min-width:578px)
+                max-width: 100px
+                // display: block
+            @media only screen and (min-width:992px)
+                top: unset
+                right: unset
+                bottom: 0
+                left: 5%
+                max-width: 160px
+                transform: none
+            @media only screen and (min-width:1351px)
+                max-width: 180px
+
+            img
+                @include imgFit
+        .contactBox
+            width: 100%
+            @media only screen and (min-width:992px)
+                padding-bottom: 160px
+            ul
+                li
+                    &:not(:last-of-type)
+                        margin-bottom: 10px
+                        @media only screen and (min-width:768px)
+                            margin-bottom: 20px
+                        @media only screen and (min-width:1441px)
+                            margin-bottom: 30px
+                    &:nth-child(4n - 3)
+                        .Txt
+                            color: #EE4880
+                        .contactList
+                            border-bottom: 1px solid rgba(238, 72, 128,0.2)
+                    &:nth-child(4n - 2)
+                        .Txt
+                            color: #FFCB02
+                        .contactList
+                            border-bottom: 1px solid rgba(255, 203, 2,0.2)
+                    &:nth-child(4n - 1)
+                        .Txt
+                            color: #13D1FF
+                        .contactList
+                            border-bottom: 1px solid rgba(19, 209, 255,0.2)
+                    &:nth-child(4n)
+                        .Txt
+                            color: #9062EF
+                        .contactList
+                            border-bottom: 1px solid rgba(144, 98, 239,0.2)
+            .Txt
+                margin-bottom: 5px
+                font: 500 17px/24px $fontstack1
+                @media only screen and (min-width:992px)
+                    font: 500 18px/26px $fontstack1
+                @media only screen and (min-width:1441px)
+                    margin-bottom: 10px
+                    font: 500 22px/30px $fontstack1
+                &.upper
+                    text-transform: uppercase
+            .contactList
+                display: flex
+                width: 100%
+                align-items: center
+                justify-content: space-between
+                padding-bottom: 10px
+                flex-wrap: wrap
+
+                .links
+                    color: $black
+                    font-weight: 300
+                    display: block
+                    width: fit-content
+                    transition: all 0.5s
+                    margin-bottom: 5px
+                    font-size: 15px
+                    @media only screen and (min-width:768px)
+                        font-size: 17px
+                    @media only screen and (min-width:992px)
+                        font-size: 19px
+                    @media only screen and (min-width:1441px)
+                        font-size: 24px
+                a
+                    &:hover
+                        color: $basecolor
+
+    #address
+        position: relative
+        .container-fluid
+            padding: 0
+            .rowFlx
+                display: flex
+                flex-wrap: wrap
+                margin: -1px
+                >*
+                    width: 100%
+                    padding: 1px
+                    @media only screen and (min-width:768px)
+                        width: calc(100% / 2)
+                    &:nth-child(2)
+                        .addressBox
+                            .info
+                                @media only screen and (min-width:992px)
+                                    right: unset
+                                    left: 0
+                                .locationMap, .addLink
+                                    &:hover
+                                        color: #9062ef
+
+        .addressBox
+            width: 100%
+            height: 100%
+            display: block
+            position: relative
+            overflow: hidden
+            &:hover
+                img
+                    transform: scale(1.1) rotate(-2deg)
+            img
+                transition: all 0.9s
+                @include imgFit
+            .info
+                position: absolute
+                right: 0
+                bottom: 0
+                padding: 25px
+                background: #ffffffe8
+                left: 0
+                margin: auto
+                top: 0
+                width: 100%
+                height: 220px
+                display: flex
+                flex-direction: column
+                @media only screen and (min-width:578px)
+                    padding: 35px
+                @media only screen and (min-width:992px)
+                    background: $white
+                    padding: 35px 40px 15px
+                    left: unset
+                    top: unset
+                    max-width: 400px
+                    height: auto
+                    min-height: 280px
+                    margin: 0
+                @media only screen and (min-width:1441px)
+                    max-width: 468px
+                    min-height: 320px
+                @media only screen and (min-width:1551px)
+                    max-width: 576px
+                    min-height: 380px
+                    padding: 40px 60px 15px
+                @media only screen and (min-width:1771px)
+                    max-width: 768px
+                    padding: 60px 80px 25px
+                .headTxt
+                    font-size: 20px
+                    line-height: 1.2
+                    font-weight: 400
+                    color: $black
+                    margin-bottom: 10px
+                    text-transform: uppercase
+                    @media only screen and (min-width:992px)
+                        font-size: 22px
+                    @media only screen and (min-width:1551px)
+                        font-size: 30px
+                        margin-bottom: 30px
+                .addLink
+                    font-weight: 300
+                    color: $black
+                    display: block
+                    width: fit-content
+                    margin-bottom: 19px
+                    font-size: 15px
+                    transition: all 0.5s
+                    @media only screen and (min-width:992px)
+                        margin-bottom: 25px
+                        font-size: 18px
+                    @media only screen and (min-width:1441px)
+                        margin-bottom: 43px
+                        font-size: 22px
+                    &:hover
+                        color: #24e1da
+
+                .locationMap
+                    font-size: 16px
+                    font-weight: 300
+                    text-transform: uppercase
+                    color: $black
+                    display: flex
+                    align-items: center
+                    width: fit-content
+                    margin-top: auto
+                    margin-bottom: 15px
+                    transition: all 0.5s
+                    @media only screen and (min-width:992px)
+                        font-size: 18px
+                    @media only screen and (min-width:1441px)
+                        font-size: 22px
+                    &:hover
+                        color: #24e1da
+
+                    .icon
+                        width: 20px
+                        height: 28px
+                        overflow: hidden
+                        display: flex
+                        @media only screen and (min-width:1441px)
+                            width: 26px
+                            height: 34px
+                        svg, img
+                            @include imgFit
+                    span
+                        padding: 0 15px
+                        @media only screen and (min-width:1441px)
+                            padding: 0 22px

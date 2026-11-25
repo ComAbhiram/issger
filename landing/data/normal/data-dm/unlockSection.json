@@ -1,0 +1,23 @@
+{
+  "header": {
+    "title": "Is Your <br> Business <br> Growing?",
+    "text": "We help businesses turn digital efforts into measurable growth, qualified leads, and long-term success"
+  },
+  "items": [
+    {
+      "title": "Not getting quality leads?",
+      "text": "Traffic without conversions is wasted effort. We focus on attracting high-intent prospects that turn into real business."
+    },
+    {
+      "title": "Ads not delivering ROI?",
+      "text": "Poorly managed campaigns burn the budget. We optimize ads to maximize returns and reduce wasted spend."
+    },
+    {
+      "title": "Competitors growing faster?",
+      "text": "If they’re ahead, they’re capturing your market. We help you compete with smarter, data-backed strategies."
+    }
+  ],
+  "strategyText": {
+    "title": "We build strategies and solutions that drive real business growth."
+  }
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "title": "Webdesign",
+    "thumb_label": "Webdesign",
+    "icon": "images/service-thumb-2.svg",
+    "features": [
+      {
+        "title": "Modernes UI-Design",
+        "txt": "Als Webdesign-Agentur in Düsseldorf entwickeln wir moderne, maßgeschneiderte Benutzeroberflächen, die Ihre Markenidentität widerspiegeln und einen bleibenden ersten Eindruck hinterlassen."
+      },
+      {
+        "title": "Mobile-First-Design",
+        "txt": "Responsive Webdesign aus Düsseldorf für ein nahtloses Nutzererlebnis auf Desktop-Computern, Tablets und mobilen Geräten."
+      },
+      {
+        "title": "Nutzerorientierte Layouts",
+        "txt": "Strategisch aufgebaute Seitenstrukturen, die von unserer Webdesign-Agentur in Düsseldorf entwickelt werden, um Interaktion, Nutzererlebnis und Conversions gezielt zu steigern."
+      },
+      {
+        "title": "Einheitliches Branding",
+        "txt": "Harmonisch abgestimmte Farben, Typografie und visuelle Elemente, die Ihre Marke auf jeder Seite Ihrer Website stärken."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Zufriedene Kunden"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Mehr Erfahren",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Webentwicklung",
+    "thumb_label": "Webentwicklung",
+    "icon": "images/service-thumb-1.svg",
+    "features": [
+      {
+        "title": "Individueller & skalierbarer Code",
+        "txt": "Als Webentwicklungsagentur in Düsseldorf entwickeln wir sauberen, skalierbaren Code, der gezielt auf Ihre Anforderungen zugeschnitten ist."
+      },
+      {
+        "title": "Schnelle & sichere Websites",
+        "txt": "Optimierter Code und eine sichere Architektur sorgen dafür, dass Ihre Website-Entwicklung höchste Geschwindigkeit, Zuverlässigkeit und Performance bietet."
+      },
+      {
+        "title": "Sicher & skalierbar",
+        "txt": "Sicherheit auf Enterprise-Niveau und skalierbare Entwicklungslösungen, die Ihr Unternehmen auch beim weiteren Wachstum zuverlässig unterstützen."
+      },
+      {
+        "title": "Systemintegrationen",
+        "txt": "Integrieren Sie CRMs, APIs, Zahlungsanbieter und Tools von Drittanbietern problemlos in Ihre individuell entwickelte Website."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Zufriedene Kunden"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Mehr Erfahren",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Webshop/ E-Commerce",
+    "thumb_label": "Webshop/ E-Commerce",
+    "icon": "images/service-thumb-3.svg",
+    "features": [
+      {
+        "title": "Nahtloses Einkaufserlebnis",
+        "txt": "Entwickeln Sie leistungsstarke Online-Shops mit intuitiven Einkaufserlebnissen in Zusammenarbeit mit einer vertrauenswürdigen Webdesign-Agentur aus Düsseldorf."
+      },
+      {
+        "title": "Sichere Zahlungsanbieter",
+        "txt": "Sichere und zuverlässige Zahlungsintegrationen, die das Vertrauen Ihrer Kunden stärken und die Abschlussrate beim Checkout erhöhen."
+      },
+      {
+        "title": "Bestands- & Auftragsverwaltung",
+        "txt": "Vereinfachen Sie die Verwaltung von Lagerbeständen, Bestellungen und Produkten mit leistungsstarken E-Commerce-Lösungen."
+      },
+      {
+        "title": "Conversion-Optimierung",
+        "txt": "Conversion-orientierte Layouts, Upselling-Funktionen und strategisch platzierte CTAs helfen Ihnen dabei, Ihre Online-Umsätze nachhaltig zu steigern."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Zufriedene Kunden"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Mehr Erfahren",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 4,
+    "title": "WordPress Entwicklung",
+    "thumb_label": "WordPress Entwicklung",
+    "icon": "images/service-thumb-3.svg",
+    "features": [
+      {
+        "title": "Individuelle WordPress-Entwicklung",
+        "txt": "Individuelle WordPress-Websites, entwickelt von einer erfahrenen Webentwicklungs-Agentur in Düsseldorf. Optimiert für Geschwindigkeit, SEO und maximale Performance."
+      },
+      {
+        "title": "Plugin-Einrichtung & Konfiguration",
+        "txt": "Professionelle Auswahl und Konfiguration von Plugins für mehr Funktionalität, Sicherheit und eine bessere Suchmaschinenoptimierung."
+      },
+      {
+        "title": "Einfache Content-Verwaltung",
+        "txt": "Benutzerfreundliche Administrationsoberflächen, mit denen Sie Ihre Website ganz einfach selbst aktualisieren können ohne technische Vorkenntnisse."
+      },
+      {
+        "title": "Laufende Wartung & Support",
+        "txt": "Regelmäßige Updates, Backups, Sicherheitsüberwachung und kontinuierlicher Support sorgen dafür, dass Ihre WordPress-Website zuverlässig und reibungslos läuft."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Zufriedene Kunden"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Mehr Erfahren",
+      "link": "#Expert"
+    }
+  }
+]

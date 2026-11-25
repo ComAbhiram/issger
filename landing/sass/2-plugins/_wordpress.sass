@@ -1,0 +1,197 @@
+.wpcf7-spinner
+  display: none
+
+.wpcf7-form-control-wrap
+  .wpcf7-not-valid-tip
+    font-size: 12px
+    line-height: 1
+    color: red
+    margin: 2px 0
+    transition: all 0.3s
+    position: absolute
+  .wpcf7-valid-tip
+    color: green
+  .wpcf7-not-valid-tip
+    color: red
+
+.wpcf7-response-output
+  font-size: 12px
+  line-height: 1.2
+  color: $black
+  width: fit-content
+  width: 100%
+  padding: 8px 10px !important
+  transition: all 0.3s
+  will-change: transform
+  border-radius: 5px
+  border-width: 1px
+  border-style: solid
+  border-color: rgba(red, 0.5 )
+  margin: 10px 0 !important
+  background: #ffc6c6
+  @media only screen and ( min-width: 576px )
+    font-size: 12px
+  &.success
+    color: $black
+    background: #c6ffc6
+    border-color: rgba(green, 0.5 )
+
+body div.wpforms-container-full 
+  .wpforms-form
+    .choices__placeholder
+      opacity: 1
+    .wp-form-group
+      width: 100%
+      height: auto
+      display: block
+      margin-bottom: 25px
+      @media only screen and (min-width: 576px)
+        margin-bottom: 35px
+    .wpforms-field-label
+      font-size: 13px
+      line-height: 1.1
+      font-weight: 400
+      color: #373737
+      display: block
+      margin-bottom: 10px
+      @media only screen and (min-width: 468px)
+        font-size: 14px
+      @media only screen and (min-width: 992px)
+        margin-bottom: 15px
+      @media only screen and (min-width: 1551px)
+        font-size: 16px
+    .wpforms-field-container
+      margin: 0 -15px
+      @include display
+      &>*
+        padding: 0 15px
+      &>.wp-w-100
+        width: 100%
+      &>.wp-w-50
+        width: 50%
+        @media only screen and (max-width: 576px)
+          width: 100%
+    input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=range], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea, .choices__inner
+      all: unset
+      @include defaultValue
+      font-size: 13px
+      line-height: 1
+      font-weight: 400
+      font-family: $fontstack1
+      color: $black
+      width: 100%
+      height: 43px
+      box-sizing: border-box
+      transition: all .3s
+      border-bottom: 1px solid $black
+      align-items: center
+      @include display
+      @media only screen and (min-width: 576px)
+        font-size: 14px
+        height: 45px
+        border-bottom-width: 2px
+      @media only screen and (min-width: 1551px)
+        font-size: 16px
+      &::placeholder
+        color: $black
+        text-transform: uppercase
+      &:focus
+        background-color: transparent
+        color: inherit
+        border-color: inherit
+        border-top: none
+        border-left: none
+        border-right: none
+      &[disabled]
+        background: none
+      &:-webkit-autofill, &:-webkit-autofill:hover, &:-webkit-autofill:focus, &:-webkit-autofill:active
+        -webkit-text-fill-color: rgb(0, 0, 0)
+        -webkit-box-shadow: 0 0 0 30px $white inset
+        transition: background-color 5000s ease-in-out 0s
+      &:-internal-autofill-selected
+        background-color: -internal-light-dark(rgb(0, 0, 0), rgba(70, 90, 126, 0.4)) !important
+        -webkit-box-shadow: 0 0 0 30px rgb(0, 0, 0) inset
+      &::-ms-expand
+        background-color: transparent
+        border: 0
+      @media (prefers-reduced-motion: reduce)
+        transition: none
+    textarea.wpforms-field-large
+      height: auto
+      min-height: 95px
+    .is-focused, .is-open
+      .choices__inner
+        border: none !important
+        border-bottom: 1px solid $black !important
+        border-radius: 0
+        @media only screen and (min-width: 576px)
+          border-bottom-width: 2px !important
+    .choices__list--single
+      padding-left: 0
+    .wpforms-field input.wpforms-error, .wpforms-field input.user-invalid, .wpforms-field textarea.wpforms-error, .wpforms-field textarea.user-invalid, .wpforms-field select.wpforms-error, .wpforms-field select.user-invalid, .wpforms-field.wpforms-has-error .choices__inner
+        border: none !important
+        border-bottom: 1px solid $black !important
+        @media only screen and (min-width: 576px)
+          border-bottom-width: 2px !important
+    label.wpforms-error, .wpf-error-message
+      font-size: 11px !important
+      line-height: 1.2
+      font-weight: 400
+      display: block
+      padding: 2px 0
+      @media only screen and (min-width: 576px)
+        font-size: 12px !important
+    .wp-btn-submit, button[type=submit]
+      all: unset
+      @include defaultValue
+      font-size: 13px
+      line-height: normal
+      font-weight: 500
+      text-transform: uppercase
+      font-family: $fontstack1
+      color: $basecolor4
+      width: 100%
+      max-width: 160px
+      height: 40px
+      padding: 8px 10px
+      will-change: transform
+      border-radius: 0
+      box-sizing: border-box
+      cursor: pointer
+      overflow: hidden
+      transition: all .3s
+      border: 1px solid $basecolor4
+      background-color: $white
+      @include center
+      @media only screen and (min-width: 992px)
+        font-size: 14px
+        max-width: 180px
+        height: 45px
+      @media only screen and (min-width: 1551px)
+        font-size: 16px
+        max-width: 200px
+        height: 50px
+      &:hover, &:focus, &:active, &.active, &.show, &:first-child:active
+        border-color: $basecolor4
+        color: $white
+        background-color: $basecolor4
+
+.wpforms-confirmation-container-full, div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message)
+  font-size: 13px
+  line-height: 1
+  font-weight: 400
+  font-family: $fontstack1
+  color: $black
+  @media only screen and (min-width: 576px)
+    font-size: 14px
+  @media only screen and (min-width: 1551px)
+    font-size: 16px
+
+body div.wpforms-container-full .wpforms-form input[type=datetime]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=datetime-local]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=email]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=month]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=number]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=password]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=range]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=search]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=tel]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=text]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=time]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=url]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form input[type=week]:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form select:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form textarea:-internal-autofill-selected, body div.wpforms-container-full .wpforms-form .choices__inner:-internal-autofill-selected
+  -webkit-box-shadow: 0 0 0 30px transparent inset
+body div.wpforms-container-full .wpforms-form input[type=datetime]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=datetime]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=datetime]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=datetime]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=datetime-local]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=datetime-local]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=datetime-local]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=datetime-local]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=email]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=email]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=email]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=email]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=month]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=month]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=month]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=month]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=number]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=number]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=number]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=number]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=password]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=password]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=password]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=password]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=range]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=range]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=range]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=range]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=search]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=search]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=search]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=search]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=tel]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=tel]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=tel]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=tel]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=text]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=text]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=text]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=text]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=time]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=time]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=time]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=time]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=url]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=url]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=url]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=url]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form input[type=week]:-webkit-autofill, body div.wpforms-container-full .wpforms-form input[type=week]:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form input[type=week]:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form input[type=week]:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form select:-webkit-autofill, body div.wpforms-container-full .wpforms-form select:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form select:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form select:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form textarea:-webkit-autofill, body div.wpforms-container-full .wpforms-form textarea:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form textarea:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form textarea:-webkit-autofill:active, body div.wpforms-container-full .wpforms-form .choices__inner:-webkit-autofill, body div.wpforms-container-full .wpforms-form .choices__inner:-webkit-autofill:hover, body div.wpforms-container-full .wpforms-form .choices__inner:-webkit-autofill:focus, body div.wpforms-container-full .wpforms-form .choices__inner:-webkit-autofill:active
+  -webkit-box-shadow: 0 0 0 30px transparent inset
+  border-color: $basecolor3
+      
+
+

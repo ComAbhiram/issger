@@ -1,0 +1,23 @@
+{
+  "header": {
+    "title": "Why Your <br> Website Fails",
+    "text": "We build high-performance websites that generate leads, build trust, and support your growth."
+  },
+  "items": [
+    {
+      "title": "Site is <span>Too Slow</span>"
+    },
+    {
+      "title": "Losing <span>Valuable Leads</span>"
+    },
+    {
+      "title": "Poor <span>User Experience</span>"
+    },
+    {
+      "title": "High <span>Bounce Rates</span>"
+    }
+  ],
+  "strategyText": {
+    "title": "We build <span>strategies</span> that drive real business growth."
+  }
+}

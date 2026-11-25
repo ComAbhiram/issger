@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.832" height="54.141" viewBox="0 0 60.832 54.141">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffcb02;
+      }
+    </style>
+  </defs>
+  <g id="Group_808" data-name="Group 808" transform="translate(0.046 2.806)">
+    <rect id="Rectangle_1003" data-name="Rectangle 1003" class="cls-1" width="47" height="8" transform="translate(6.87 41.919)"/>
+    <g id="crown" transform="translate(-0.046 -22.625)">
+      <g id="Group_816" data-name="Group 816" transform="translate(0 19.819)">
+        <g id="Group_815" data-name="Group 815" transform="translate(0)">
+          <path id="Path_1278" data-name="Path 1278" d="M60.59,29.326a1,1,0,0,0-.762-.348.994.994,0,0,0-.838.456L45.913,49.522l-15.5-29.7-15.5,29.7L1.843,29.435a1,1,0,0,0-1.832.691L6.543,73.959H54.29l6.532-43.834A1,1,0,0,0,60.59,29.326ZM52.784,72.213H8.048L2.242,33.249,15.085,52.978,30.416,23.594,45.747,52.978,58.59,33.249Z" transform="translate(0 -19.819)"/>
+        </g>
+      </g>
+      <g id="Group_818" data-name="Group 818" transform="translate(5.975 63.234)">
+        <g id="Group_817" data-name="Group 817">
+          <rect id="Rectangle_1002" data-name="Rectangle 1002" width="48.885" height="1.746"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

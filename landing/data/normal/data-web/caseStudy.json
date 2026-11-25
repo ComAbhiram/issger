@@ -1,0 +1,106 @@
+{
+  "section": {
+    "smallTitle": "Case Studies",
+    "description": "If your website feels like everyone else’s, your audience will treat you like everyone else. We help you cross that line. Growth needs something sharper, louder, and a lot more intentional."
+  },
+  "items": [
+    {
+      "title": "Powering GCC Automotive Brands",
+      "logo": "images/cs1.png",
+      "description": "Saud Bahwan Automotive stands as one of the largest business conglomerates in Oman.",
+      "projectIcon": "images/csd1.png",
+      "projectsCompleted": "04",
+      "projectsLabel": "Projects Completed",
+      "sharedYears": "2+",
+      "sharedYearsLabel": "Years of Shared Success",
+      "startYear": "2024",
+      "endYear": "2026",
+      "slides": [
+        "images/ynagwang.webp",
+        "images/Lincoln.webp",
+        "images/BYD Oman.webp",
+        "images/Fordoman.webp"
+      ],
+      "thumbSlides": [
+        "images/yanfwang.svg",
+        "images/Mask group.svg",
+        "images/byd.svg",
+        "images/Ford_logo_flat 1.svg"
+      ],
+      "button": {
+        "text": "Speak With Our Expert"
+      }
+    },
+    {
+      "title": "Trusted Partner for Wipro",
+      "logo": "images/WIPRO.svg",
+      "description": "One of India's leading multinational companies with a strong footprint across global markets.",
+      "projectIcon": "images/brand2.png",
+      "projectsCompleted": "07",
+      "projectsLabel": "Projects Completed",
+      "sharedYears": "3+",
+      "sharedYearsLabel": "Years of Shared Success",
+      "startYear": "2023",
+      "endYear": "2026",
+      "slides": [
+        "images/Wiprodyan.webp",
+        "images/Wiprolighting.webp",
+        "images/Wipro lighting utopianew10.webp"
+      ],
+      "thumbSlides": [
+        "images/wiprointra.svg",
+        "images/wiprolighting.svg",
+        "images/wiprowebstor.svg"
+      ],
+      "button": {
+        "text": "Speak With Our Expert"
+      }
+    },
+    {
+      "title": "UAE Institutional Projects",
+      "description": "Secure web and digital solutions supporting digital transformation institutional initiatives",
+      "projectIcon": "images/uae-case-study.png",
+      "projectsCompleted": "09",
+      "projectsLabel": "Projects Completed",
+      "sharedYears": "7+",
+      "sharedYearsLabel": "Years of Shared Success",
+      "startYear": "2019",
+      "endYear": "2026",
+      "slides": [
+        "images/etihad hospitality.webp",
+        "images/Al jazira.webp",
+        "images/Shabab-Al-Ahli.webp",
+        "images/Le-Noir-Café.webp"
+      ],
+      "thumbSlides": [
+        "images/Logo (4) 1.svg",
+        "images/ajc-badge 1.svg",
+        "images/2.svg",
+        "images/589140052_18106050625729659_3813135471567225383_n 1.svg"
+      ],
+      "button": {
+        "text": "Speak With Our Expert"
+      }
+    },
+    {
+      "title": "GEMS Learning Environments",
+      "logo": "images/logo for title section.svg",
+      "description": "A leading international education group operating schools across the globe.",
+      "projectIcon": "images/brand1.png",
+      "projectsCompleted": "06",
+      "projectsLabel": "Projects Completed",
+      "sharedYears": "6+",
+      "sharedYearsLabel": "Years of Shared Success",
+      "startYear": "2020",
+      "endYear": "2026",
+      "slides": ["images/gemskochi.webp", "images/Gems Gurgaon.webp"],
+      "thumbSlides": [
+        "images/gems1.svg",
+        "images/gemsinternational.svg"
+      ],
+      "button": {
+        "text": "Speak With Our Expert"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "Our Process",
+  "items": [
+  {
+    "id": "01",
+    "title": "Set the <br> Goal",
+    "text": "We start by understanding your business, goals, and current challenges. What you need comes first before anything else."
+  },
+  {
+    "id": "02",
+    "title": "Audit & <br> Analyse",
+    "text": "We review your current marketing, campaigns, and presence. This helps us find what’s working, what’s not, and where you’re losing opportunities."
+  },
+  {
+    "id": "03",
+    "title": "Shape the <br> Strategy",
+    "text": "With clear insights, we plan what to run, where to focus, and how to turn reach into real business results."
+  },
+  {
+    "id": "04",
+    "title": "Launch & <br> Manage",
+    "text": "We roll out campaigns across the right channels. Everything is handled carefully to make sure it performs from the start."
+  },
+  {
+    "id": "05",
+    "title": "Refine & <br> Grow",
+    "text": "We track the numbers, improve campaigns, and scale your growth step by step."
+  }
+]
+}

@@ -1,0 +1,79 @@
+{
+  "section": {
+    "smallTitle": "Cases",
+    "description": "Entdecken Sie ausgewählte Websites, die wir für unsere Kunden entwickelt haben."
+  },
+  "items": [
+    {
+      "title": "Vertrauensvoller Partner von RS-Reisemobile GmbH",
+      "logo": "images/reisemobilelogo.png",
+      "description": "Als etablierter Reisemobilhändler in Nordrhein-Westfalen bietet das Unternehmen eine beeindruckende Auswahl von über 300 sofort verfügbaren Fahrzeugen – von modernen Campervans über komfortable Wohnmobile bis hin zu hochwertigen Reisemobilen für jeden Anspruch. Dank langjähriger Erfahrung, persönlicher Beratung und einem umfassenden Service begleitet das Team seine Kunden von der ersten Inspiration bis zur Schlüsselübergabe und darüber hinaus.<br>Die individuell entwickelte Website bildet den gesamten Fahrzeugbestand in Echtzeit ab und sorgt dafür, dass Interessenten jederzeit auf aktuelle Verfügbarkeiten, Ausstattungsmerkmale, Preise und Fahrzeugdetails zugreifen können. Durch intelligente Such- und Filterfunktionen finden Besucher schnell das passende Modell, während die nahtlose Anbindung an das Bestandssystem eine stets aktuelle und zuverlässige Datenbasis gewährleistet. Das Ergebnis ist ein modernes, benutzerfreundliches Online-Erlebnis, das den Fahrzeugkauf einfacher, transparenter und effizienter macht.",
+        "projectIcon": "images/csv-dummy.svg",
+      "projectsCompleted": "04",
+      "projectsLabel": "Projekte abgeschlossen",
+      "sharedYears": "3+",
+      "sharedYearsLabel": "Jahre erfolgreicher Zusammenarbeit",
+      "startYear": "2022",
+      "endYear": "2025",
+      "slides": [
+        "images/reismobile.webp",
+        "images/reismobile.webp",
+        "images/reismobile.webp",
+        "images/reismobile.webp"
+      ],
+      "thumbSlides": ["images/reisemobilelogo.png"],
+      "button": {
+        "text": "Mit unserem Experten sprechen"
+      }
+    },
+    {
+      "title": "Vertrauensvoller Partner von Innovation Elements GmbH",
+      "logo": "images/logo-innovation.png",
+      "description": "Die in Düsseldorf ansässige B2B-Unternehmensberatung unterstützt den deutschen Mittelstand mit maßgeschneiderten Lösungen in den Bereichen Innovations- und Projektmanagement. Mit einem klaren Fokus auf nachhaltiges Wachstum, Prozessoptimierung und zukunftsorientierte Strategien begleitet das Unternehmen seine Kunden von der Entwicklung neuer Geschäftsideen bis zur erfolgreichen Umsetzung komplexer Projekte. Dabei stehen Effizienz, Transparenz und langfristiger Unternehmenserfolg stets im Mittelpunkt.<br>Für den digitalen Auftritt wurde ein vollständig individuelles Content-Management-System (CMS) entwickelt, das exakt auf die Anforderungen des Unternehmens zugeschnitten ist. Die flexible Lösung ermöglicht eine einfache Verwaltung von Inhalten, eine effiziente Pflege von Leistungen, Referenzen und Fachbeiträgen sowie eine hohe Skalierbarkeit für zukünftige Anforderungen. So schafft die Website eine leistungsstarke Plattform, die Professionalität vermittelt, die Markenposition stärkt und das nachhaltige Wachstum des Unternehmens optimal unterstützt.",
+        "projectIcon": "images/csv-dummy.svg",
+      "projectsCompleted": "01",
+      "projectsLabel": "Projekt abgeschlossen",
+      "sharedYears": "1+",
+      "sharedYearsLabel": "Jahre erfolgreicher Zusammenarbeit",
+      "startYear": "2024",
+      "endYear": "2025",
+      "slides": [
+        "images/Innovation elements.webp",
+        "images/Innovation elements.webp",
+        "images/Innovation elements.webp",
+        "images/Innovation elements.webp"
+      ],
+      "thumbSlides": ["images/logo-innovation.png"],
+      "button": {
+        "text": "Mit unserem Experten sprechen"
+      }
+    },
+    {
+      "title": "Internationale Automobilmarken im GCC-Raum",
+      "logo": "images/cs1.png",
+      "description": "Saud Bahwan Automotive zählt zu einem der größten Wirtschaftskonglomerate im Oman und repräsentiert zahlreiche internationale Automobilmarken im GCC-Raum.",
+      "projectIcon": "images/csd1.png",
+      "projectsCompleted": "04",
+      "projectsLabel": "Projekte abgeschlossen",
+      "sharedYears": "2+",
+      "sharedYearsLabel": "Jahre erfolgreicher Zusammenarbeit",
+      "startYear": "2024",
+      "endYear": "2026",
+      "slides": [
+        "images/ynagwang.webp",
+        "images/Lincoln.webp",
+        "images/BYD Oman.webp",
+        "images/Fordoman.webp"
+      ],
+      "thumbSlides": [
+        "images/yanfwang.svg",
+        "images/Mask group.svg",
+        "images/byd.svg",
+        "images/Ford_logo_flat 1.svg"
+      ],
+      "button": {
+        "text": "Mit unserem Experten sprechen"
+      }
+    }
+  ]
+}

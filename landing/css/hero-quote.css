@@ -1,0 +1,670 @@
+/* HERO + QUOTE FORM (#HeroQuote). Scoped to this section only. Loaded from front-page.php. */
+
+#HeroQuote {
+    --hq-ink: #0b0b0c;
+    --hq-paper: #f4f1ea;
+    --hq-page: #f5f7fb; /* body colour: the hero dissolves into it */
+    --hq-line: rgba(255, 255, 255, .16);
+    --hq-muted: rgba(255, 255, 255, .76);
+    --hq-yellow: #ffcb02;
+    --hq-ease: cubic-bezier(.16, 1, .3, 1);
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background: var(--hq-ink);
+    color: #fff;
+    font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif;
+    padding: 104px 0 150px;
+    word-spacing: .06em;
+    text-align: left;
+}
+
+#HeroQuote ::selection { background: var(--hq-yellow); color: var(--hq-ink); }
+
+#HeroQuote .hq-bg { position: absolute; inset: 0; z-index: -2; }
+#HeroQuote .hq-bg img { width: 100%; height: 100%; object-fit: cover; filter: brightness(.2) contrast(1.1); }
+
+/* soft dissolve: eased alpha ramp, dark hero melts into the page colour with no visible seam */
+#HeroQuote::after {
+    content: '';
+    position: absolute; inset: auto 0 -1px 0; height: 320px; z-index: 0; pointer-events: none;
+    background: var(--hq-page);
+    -webkit-mask: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.03) 12%, rgba(0,0,0,.12) 27%, rgba(0,0,0,.3) 42%, rgba(0,0,0,.55) 57%, rgba(0,0,0,.8) 72%, rgba(0,0,0,.94) 86%, #000 100%);
+    mask: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.03) 12%, rgba(0,0,0,.12) 27%, rgba(0,0,0,.3) 42%, rgba(0,0,0,.55) 57%, rgba(0,0,0,.8) 72%, rgba(0,0,0,.94) 86%, #000 100%);
+}
+
+#HeroQuote .container { position: relative; z-index: 1; }
+#HeroQuote .hq-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 36px; }
+
+/* ---------- copy ---------- */
+#HeroQuote .hq-copy { min-width: 0; }
+#HeroQuote .hq-eyebrow { display: flex; align-items: center; gap: 14px; margin: 0 0 22px; font-size: .75rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; line-height: 1.3; color: #fff; }
+#HeroQuote .hq-eyebrow::before { content: ''; flex: none; width: 30px; height: 2px; background: var(--hq-yellow); }
+#HeroQuote h1 {
+    margin: 0;
+    font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 1.2rem + 3.7vw, 4.75rem);
+    line-height: 1.02;
+    letter-spacing: -.02em;
+    color: #fff;
+}
+#HeroQuote h1 .hq-line { display: block; }
+#HeroQuote h1 em { font-style: normal; color: var(--hq-yellow); }
+#HeroQuote .hq-sub { margin: 22px 0 0; max-width: 46ch; font-size: clamp(1.0625rem, .95rem + .4vw, 1.25rem); line-height: 1.5; font-weight: 400; color: var(--hq-muted); text-wrap: pretty; }
+
+#HeroQuote .hq-services { display: flex; flex-wrap: wrap; gap: 14px 0; margin: 30px 0 0; padding: 0; list-style: none; }
+#HeroQuote .hq-services li { display: flex; align-items: center; gap: 12px; padding: 0 22px; font-size: .9375rem; font-weight: 500; line-height: 1.25; color: #fff; border-left: 1px solid var(--hq-line); }
+#HeroQuote .hq-services li:first-child { padding-left: 0; border-left: 0; }
+#HeroQuote .hq-services svg { flex: none; width: 28px; height: 28px; fill: none; stroke: var(--hq-yellow); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+
+#HeroQuote .hq-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+#HeroQuote .hq-btn { display: inline-flex; align-items: center; gap: 10px; height: 52px; padding: 0 26px; border-radius: 10px; font-size: 1rem; font-weight: 700; line-height: 1; letter-spacing: -.005em; text-decoration: none; transition: background-color .2s, border-color .2s, transform .25s var(--hq-ease); }
+#HeroQuote .hq-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+#HeroQuote .hq-btn-solid { color: var(--hq-ink); background: var(--hq-yellow); }
+#HeroQuote .hq-btn-solid:hover { background: #ffd62e; transform: translateY(-1px); }
+#HeroQuote .hq-btn-line { color: #fff; border: 1px solid rgba(255, 255, 255, .45); }
+#HeroQuote .hq-btn-line:hover { border-color: #fff; transform: translateY(-1px); }
+#HeroQuote .hq-btn:focus-visible { outline: 3px solid var(--hq-yellow); outline-offset: 3px; }
+#HeroQuote .hq-btn-solid:focus-visible { outline-color: #fff; }
+
+/* ---------- hero image ---------- */
+#HeroQuote .hq-visual { min-width: 0; }
+#HeroQuote .hq-visual .hq-art { display: block; width: 100%; height: auto; -webkit-mask-image: radial-gradient(ellipse 52% 58% at 50% 54%, #000 56%, transparent 100%); mask-image: radial-gradient(ellipse 52% 58% at 50% 54%, #000 56%, transparent 100%); }
+
+/* ---------- proof strip ---------- */
+#HeroQuote .hq-proof { min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 0; }
+#HeroQuote .hq-team { margin: 0; display: flex; align-items: center; gap: 22px; }
+#HeroQuote .hq-team img { display: block; width: 230px; max-width: 100%; height: auto; aspect-ratio: 1575 / 367; object-fit: cover; border-radius: 10px; filter: saturate(.85) contrast(1.02); }
+#HeroQuote .hq-team figcaption { font-size: 1rem; line-height: 1.45; color: #fff; }
+#HeroQuote .hq-award img { display: block; width: 190px; height: auto; }
+#HeroQuote .hq-rating { display: flex; flex-direction: column; gap: 6px; font-size: .9375rem; line-height: 1.2; color: var(--hq-muted); }
+#HeroQuote .hq-rating b { font-size: 1.5rem; font-weight: 700; color: #fff; margin-right: 10px; letter-spacing: -.01em; }
+#HeroQuote .hq-rating .hq-row { display: flex; align-items: center; }
+#HeroQuote .hq-stars { display: inline-flex; gap: 2px; color: var(--hq-yellow); }
+#HeroQuote .hq-stars svg { width: 17px; height: 17px; fill: currentColor; }
+
+/* ---------- form card (glass) ---------- */
+#HeroQuote .hq-formcol { min-width: 0; }
+#HeroQuote .hq-card {
+    position: relative;
+    padding: 28px 22px 24px;
+    border-radius: 24px;
+    color: #fff;
+    background:
+        linear-gradient(150deg, rgba(255, 255, 255, .17) 0%, rgba(255, 255, 255, .05) 52%, rgba(255, 255, 255, .11) 100%),
+        rgba(16, 16, 18, .4);
+    -webkit-backdrop-filter: blur(26px) saturate(1.5);
+    backdrop-filter: blur(26px) saturate(1.5);
+    border: 1px solid rgba(255, 255, 255, .26);
+    box-shadow: 0 32px 70px -22px rgba(0, 0, 0, .7);
+}
+#HeroQuote .hq-card h2 { margin: 0; font-family: inherit; font-size: clamp(1.5rem, 1.2rem + 1vw, 1.875rem); line-height: 1.1; font-weight: 700; letter-spacing: -.02em; color: #fff; }
+#HeroQuote .hq-card .hq-lede { text-wrap: pretty; margin: 8px 0 20px; font-size: .9375rem; line-height: 1.45; color: rgba(255, 255, 255, .84); }
+
+#HeroQuote .wpforms-container { margin: 0; padding: 0; }
+#HeroQuote .wpforms-container .wpforms-form { margin: 0; }
+#HeroQuote #wpforms-form-31 .wpforms-field-container { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 12px; }
+#HeroQuote #wpforms-form-31 .wpforms-field { grid-column: 1 / -1; margin: 0; padding: 0; position: relative; }
+/* form 31 renders phone first; reorder here without touching the form */
+#HeroQuote #wpforms-form-31 #wpforms-31-field_1-container { order: 1; grid-column: 1 / 2; }
+#HeroQuote #wpforms-form-31 #wpforms-31-field_2-container { order: 2; grid-column: 2 / 3; }
+
+#HeroQuote #wpforms-form-31 .wpforms-field-label { display: block; margin: 0 0 6px; padding: 0; font-size: .875rem; font-weight: 500; line-height: 1.2; color: #fff; position: static; transform: none; background: none; }
+#HeroQuote #wpforms-form-31 .wpforms-required-label { color: #ffd23f; }
+
+#HeroQuote #wpforms-form-31 .wpforms-field input[type=text],
+#HeroQuote #wpforms-form-31 .wpforms-field input[type=email],
+#HeroQuote #wpforms-form-31 .wpforms-field input[type=tel],
+#HeroQuote #wpforms-form-31 .wpforms-field textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 0 14px 0 46px;
+    font: 400 1rem/1.2 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .09);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 20px;
+    border: 1px solid rgba(255, 255, 255, .28);
+    border-radius: 12px;
+    box-shadow: none;
+    caret-color: var(--hq-yellow);
+    transition: border-color .2s, box-shadow .2s, background-color .2s;
+}
+#HeroQuote #wpforms-form-31 .wpforms-field textarea { height: 84px; padding: 13px 14px 13px 46px; background-position: 15px 14px; resize: vertical; line-height: 1.4; }
+#HeroQuote #wpforms-form-31 .wpforms-field input::placeholder,
+#HeroQuote #wpforms-form-31 .wpforms-field textarea::placeholder { color: rgba(255, 255, 255, .72); opacity: 1; }
+#HeroQuote #wpforms-form-31 .wpforms-field input:hover,
+#HeroQuote #wpforms-form-31 .wpforms-field textarea:hover { border-color: rgba(255, 255, 255, .5); background-color: rgba(255, 255, 255, .12); }
+#HeroQuote #wpforms-form-31 .wpforms-field input:focus-visible,
+#HeroQuote #wpforms-form-31 .wpforms-field textarea:focus-visible { outline: 0; border-color: rgba(255, 255, 255, .8); background-color: rgba(255, 255, 255, .14); box-shadow: 0 0 0 3px rgba(255, 203, 2, .55); }
+#HeroQuote #wpforms-form-31 .wpforms-field input:-webkit-autofill { -webkit-text-fill-color: #fff; box-shadow: 0 0 0 100px #2c2c2f inset; caret-color: #fff; }
+#HeroQuote #wpforms-form-31 .wpforms-field input.wpforms-error,
+#HeroQuote #wpforms-form-31 .wpforms-field textarea.wpforms-error { border-color: #ff9a92; }
+#HeroQuote #wpforms-form-31 label.wpforms-error { display: block; margin: 5px 0 0; font-size: .8125rem; line-height: 1.3; font-weight: 500; color: #ff9a92; }
+#HeroQuote #wpforms-form-31 .iti { display: block; width: 100%; }
+#HeroQuote #wpforms-form-31 .iti input[type=tel] { padding-left: 52px; background-image: none; }
+
+
+/* field icons */
+#HeroQuote #wpforms-form-31 #wpforms-31-field_1 { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-opacity='.88' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 21v-1.5a4.5 4.5 0 0 0-4.5-4.5h-7A4.5 4.5 0 0 0 4 19.5V21M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z'/%3E%3C/svg%3E"); }
+#HeroQuote #wpforms-form-31 #wpforms-31-field_2 { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-opacity='.88' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z'/%3E%3C/svg%3E"); }
+
+#HeroQuote #wpforms-form-31 .wpforms-recaptcha-container { padding: 0; margin: 0; }
+#HeroQuote #wpforms-form-31 .wpforms-submit-container { margin: 18px 0 0; padding: 0; position: relative; }
+#HeroQuote #wpforms-form-31 .wpforms-submit {
+    display: block;
+    width: 100%;
+    height: 52px;
+    padding: 0 20px;
+    font: 700 1rem/1 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif;
+    letter-spacing: -.005em;
+    color: var(--hq-ink);
+    background: var(--hq-yellow);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .2s, transform .2s var(--hq-ease), box-shadow .2s;
+}
+#HeroQuote #wpforms-form-31 .wpforms-submit:hover { background: #ffd62e; box-shadow: 0 8px 18px -8px rgba(11, 11, 12, .5); transform: translateY(-1px); }
+#HeroQuote #wpforms-form-31 .wpforms-submit:active { transform: translateY(0); box-shadow: none; }
+#HeroQuote #wpforms-form-31 .wpforms-submit:focus-visible { outline: 3px solid var(--hq-ink); outline-offset: 2px; }
+#HeroQuote #wpforms-form-31 .wpforms-submit:disabled { opacity: .6; cursor: progress; transform: none; box-shadow: none; }
+#HeroQuote #wpforms-form-31 .wpforms-submit-spinner { position: absolute; right: 16px; top: 13px; }
+#HeroQuote .wpforms-confirmation-container-full,
+#HeroQuote .wpforms-confirmation-container { margin: 0; padding: 20px; background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .3); border-radius: 12px; font-size: 1rem; line-height: 1.5; color: #fff; }
+#HeroQuote .wpforms-confirmation-container-full p { margin: 0; }
+
+#HeroQuote .hq-assure { margin: 14px 0 0; text-align: center; font-size: .8125rem; line-height: 1.4; color: rgba(255, 255, 255, .72); }
+#HeroQuote .hq-aside { margin: 18px 0 0; text-align: center; font-size: .9375rem; line-height: 1.5; color: var(--hq-muted); }
+#HeroQuote .hq-aside a { color: #fff; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em; text-decoration-color: rgba(255, 255, 255, .5); transition: text-decoration-color .2s; }
+#HeroQuote .hq-aside a:hover { text-decoration-color: var(--hq-yellow); }
+#HeroQuote .hq-aside a:focus-visible { outline: 2px solid var(--hq-yellow); outline-offset: 3px; border-radius: 2px; }
+
+/* ---------- reveal choreography (only when the script has split the title: .hq-js) ---------- */
+#HeroQuote .hq-line { overflow: visible; }
+#HeroQuote .hq-w { display: inline-block; white-space: nowrap; }
+#HeroQuote .hq-c {
+    display: inline-block;
+    transform-origin: 50% 85%;
+    transform: translate3d(0, calc(var(--ty, 0) * 1px), 0) scale(var(--sc, 1));
+    color: color-mix(in srgb, var(--hov, #ffcb02) calc(var(--m, 0) * 100%), var(--base, #fff));
+    will-change: transform;
+}
+@media (prefers-reduced-motion: no-preference) {
+    #HeroQuote.hq-js h1:not(.hq-done) .hq-line { overflow: hidden; padding: .08em 0 .16em; margin: -.08em 0 -.16em; }
+    #HeroQuote.hq-js .hq-c { animation: hq-char 1.2s var(--hq-ease) calc(.25s + var(--i) * .024s) backwards; }
+    #HeroQuote.hq-js .hq-bg img { animation: hq-zoom 2.8s var(--hq-ease) backwards; }
+    #HeroQuote.hq-js .hq-eyebrow { animation: hq-up .9s var(--hq-ease) .05s backwards; }
+    #HeroQuote.hq-js .hq-eyebrow::before { transform-origin: left; animation: hq-grow 1s var(--hq-ease) .15s backwards; }
+    #HeroQuote.hq-js .hq-sub { animation: hq-soft 1.1s var(--hq-ease) .95s backwards; }
+    #HeroQuote.hq-js .hq-services li { animation: hq-up .9s var(--hq-ease) calc(1.1s + var(--n, 0) * .1s) backwards; }
+    #HeroQuote.hq-js .hq-services li:nth-child(2) { --n: 1; }
+    #HeroQuote.hq-js .hq-services li:nth-child(3) { --n: 2; }
+    #HeroQuote.hq-js .hq-services svg * { stroke-dasharray: 1; animation: hq-draw 1.3s var(--hq-ease) calc(1.2s + var(--n, 0) * .1s) backwards; }
+    #HeroQuote.hq-js .hq-btn { animation: hq-up .9s var(--hq-ease) 1.4s backwards; }
+    #HeroQuote.hq-js .hq-btn + .hq-btn { animation-delay: 1.5s; }
+    #HeroQuote.hq-js .hq-visual { animation: hq-visual 1.9s var(--hq-ease) .35s backwards; }
+    #HeroQuote.hq-js .hq-card { animation: hq-card 1.2s var(--hq-ease) .6s backwards; }
+    #HeroQuote.hq-js .hq-proof > * { animation: hq-up .9s var(--hq-ease) 1.6s backwards; }
+    #HeroQuote.hq-js .hq-proof > *:nth-child(2) { animation-delay: 1.72s; }
+    #HeroQuote.hq-js .hq-proof > *:nth-child(3) { animation-delay: 1.84s; }
+}
+@keyframes hq-char { from { transform: translate3d(0, 118%, 0) rotate(8deg); opacity: 0; filter: blur(8px); } }
+@keyframes hq-up { from { opacity: 0; transform: translateY(20px); } }
+@keyframes hq-soft { from { opacity: 0; transform: translateY(14px); filter: blur(8px); } }
+@keyframes hq-grow { from { transform: scaleX(0); } }
+@keyframes hq-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes hq-zoom { from { transform: scale(1.12); } }
+@keyframes hq-visual { from { opacity: 0; transform: translateY(48px) scale(.95); } }
+@keyframes hq-card { from { opacity: 0; transform: translateY(36px) scale(.97); filter: blur(10px); } }
+
+/* ---------- layout ---------- */
+#HeroQuote .hq-grid { grid-template-areas: "copy" "visual" "form" "proof"; }
+#HeroQuote .hq-copy { grid-area: copy; }
+#HeroQuote .hq-visual { grid-area: visual; margin-inline: -16px; }
+#HeroQuote .hq-formcol { grid-area: form; }
+#HeroQuote .hq-proof { grid-area: proof; flex-direction: column; align-items: flex-start; gap: 22px; }
+
+@media (min-width: 576px) {
+    #HeroQuote { padding-top: 120px; }
+    #HeroQuote .hq-card { padding: 32px 30px 28px; }
+}
+@media (min-width: 768px) {
+    #HeroQuote .hq-proof { flex-direction: row; align-items: center; gap: 24px 0; }
+    #HeroQuote .hq-proof > * + * { margin-left: 40px; padding-left: 40px; border-left: 1px solid var(--hq-line); }
+}
+@media (min-width: 992px) {
+    #HeroQuote { min-height: 100vh; min-height: 100svh; display: flex; align-items: center; padding: 130px 0 230px; }
+    #HeroQuote .container { width: 100%; }
+    #HeroQuote .hq-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(360px, 385px);
+        grid-template-areas: "copy form" "proof proof";
+        column-gap: clamp(40px, 5vw, 96px);
+        row-gap: 44px;
+        align-items: center;
+    }
+    #HeroQuote .hq-visual { position: absolute; z-index: -1; margin: 0; left: 29%; width: 50%; bottom: 19%; pointer-events: none; }
+    #HeroQuote .hq-proof { align-self: end; }
+}
+@media (min-width: 1551px) {
+    #HeroQuote { padding-top: 160px; }
+    #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 470px; }
+}
+@media (max-width: 479.98px) {
+    #HeroQuote #wpforms-form-31 .wpforms-field-container { grid-template-columns: 1fr; }
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_1-container,
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_2-container { grid-column: 1 / -1; }
+    #HeroQuote .hq-services { gap: 12px 0; }
+    #HeroQuote .hq-services li { padding: 0 14px; font-size: .875rem; gap: 8px; }
+    #HeroQuote .hq-services svg { width: 22px; height: 22px; }
+    #HeroQuote .hq-btn { flex: 1 1 auto; justify-content: center; padding: 0 18px; }
+    #HeroQuote .hq-team { flex-direction: column; align-items: flex-start; gap: 12px; }
+    #HeroQuote::after { height: 220px; }
+    #HeroQuote { padding-bottom: 140px; }
+}
+
+/* beat the site's blanket "#wpforms-form-31 ... !important" rules (white text, fixed heights) for this copy only */
+#HeroQuote #wpforms-form-31 .wpforms-field { width: auto !important; margin-bottom: 0 !important; }
+#HeroQuote #wpforms-form-31 .wpforms-field-label { display: block !important; }
+#HeroQuote #wpforms-form-31 .form-control {
+    font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.2 !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    width: 100% !important;
+    height: 48px !important;
+}
+#HeroQuote #wpforms-form-31 textarea.form-control { height: 76px !important; min-height: 0 !important; }
+#HeroQuote #wpforms-form-31 .form-control::placeholder { color: rgba(255, 255, 255, .72) !important; opacity: 1; }
+#HeroQuote #wpforms-form-31 { border: 0 !important; }
+#HeroQuote #wpforms-form-31 .wpforms-field-container { margin: 0; }
+#HeroQuote #wpforms-form-31 .wpforms-field-container > * { padding: 0; }
+#HeroQuote #wpforms-form-31 { display: block !important; width: 100% !important; height: auto !important; }
+#HeroQuote .wpforms-container { height: auto !important; width: 100% !important; }
+#HeroQuote #wpforms-form-31 .form-control::placeholder { text-transform: none !important; }
+#HeroQuote #wpforms-form-31 .wpforms-submit {
+    all: revert !important;
+    display: block !important;
+    width: 100% !important;
+    height: 52px !important;
+    padding: 0 20px !important;
+    margin: 0 !important;
+    font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Arial, sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    letter-spacing: -.005em !important;
+    text-align: center !important;
+    color: var(--hq-ink) !important;
+    background: var(--hq-yellow) !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+}
+#HeroQuote #wpforms-form-31 .wpforms-submit:hover { background: #ffd62e !important; }
+#HeroQuote #wpforms-form-31 .wpforms-submit::before,
+#HeroQuote #wpforms-form-31 .wpforms-submit::after { content: none !important; display: none !important; }
+#HeroQuote #wpforms-form-31 .wpforms-submit-container { margin-top: 16px !important; }
+#HeroQuote .hq-sub, #HeroQuote .hq-lede { text-align: left !important; }
+#HeroQuote .hq-services li span { max-width: 7.6em; }
+#HeroQuote .hq-sub { max-width: 44ch; }
+@media (max-width: 479.98px) { #HeroQuote .hq-eyebrow { font-size: .6875rem; letter-spacing: .08em; gap: 10px; } #HeroQuote .hq-eyebrow::before { width: 20px; } }
+
+/* ---------- responsive tuning ---------- */
+#HeroQuote h1 em { white-space: nowrap; }
+@media (max-width: 991.98px) {
+    #HeroQuote .hq-grid { max-width: 680px; margin-inline: auto; }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+    #HeroQuote h1 { font-size: clamp(2.6rem, 7.2vw, 3.75rem); }
+}
+@media (max-width: 575.98px) {
+    #HeroQuote h1 { font-size: clamp(1.9rem, 9.6vw, 2.6rem); }
+    #HeroQuote .hq-card h2 { font-size: clamp(1.3rem, 5.8vw, 1.75rem); }
+}
+@media (max-width: 359.98px) {
+    #HeroQuote .hq-eyebrow { font-size: .625rem; letter-spacing: .06em; }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #HeroQuote .hq-grid { grid-template-areas: "copy form" "visual form" "proof proof"; row-gap: 24px; }
+    #HeroQuote .hq-formcol { align-self: start; }
+    #HeroQuote .hq-visual { position: static; z-index: auto; left: auto; bottom: auto; width: 100%; max-width: 500px; margin: 0 0 0 -12px; }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { #HeroQuote .hq-visual { position: relative; } }
+@media (min-width: 1200px) { #HeroQuote .hq-visual { position: absolute; left: 19%; width: 46%; } }
+
+/* ---------- short laptop screens: keep headline, form and buttons inside the first fold ---------- */
+@media (min-width: 992px) and (max-height: 800px) {
+    #HeroQuote { padding-top: clamp(92px, 15vh, 120px); padding-bottom: 150px; }
+    #HeroQuote h1 { font-size: clamp(2.4rem, 10.2vh, 4.4rem); }
+    #HeroQuote .hq-eyebrow { margin-bottom: 14px; }
+    #HeroQuote .hq-sub { margin-top: 14px; font-size: 1.0625rem; }
+    #HeroQuote .hq-services { margin-top: 20px; }
+    #HeroQuote .hq-actions { margin-top: 22px; }
+    #HeroQuote .hq-btn { height: 48px; }
+    #HeroQuote .hq-card { padding: 22px 24px 18px; }
+    #HeroQuote .hq-card .hq-lede { margin-bottom: 14px; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-container { gap: 10px 12px; }
+    #HeroQuote #wpforms-form-31 .form-control { height: 42px !important; }
+    #HeroQuote #wpforms-form-31 textarea.form-control { height: 58px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-label { margin-bottom: 4px; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit { height: 46px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit-container { margin-top: 12px !important; }
+    #HeroQuote .hq-assure { margin-top: 10px; }
+    #HeroQuote .hq-aside { margin-top: 10px; }
+    #HeroQuote .hq-grid { row-gap: 30px; }
+}
+
+/* ---------- laptop on the art backdrop ---------- */
+/* the art box is the 16:9 frame; the laptop is placed in % of it, so the two always scale together */
+#HeroQuote .hq-visual { position: relative; min-width: 0; }
+#HeroQuote .hq-visual .hq-art {
+    display: block; width: 100%; height: auto;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 16%), linear-gradient(to bottom, transparent 0, #000 30%, #000 84%, transparent 100%), linear-gradient(to left, transparent 0, #000 16%);
+    mask-image: linear-gradient(to right, transparent 0, #000 16%), linear-gradient(to bottom, transparent 0, #000 30%, #000 84%, transparent 100%), linear-gradient(to left, transparent 0, #000 16%);
+    -webkit-mask-composite: source-in; mask-composite: intersect;
+}
+#HeroQuote .hq-laptop { transition: opacity .3s; position: absolute; left: 20.05%; top: 13.8%; width: 59.9%; z-index: 1; }
+#HeroQuote .hq-rot { position: relative; transform: rotate(-4deg); transform-origin: 50% 50%; }
+#HeroQuote .hq-rot picture { display: block; }
+#HeroQuote .hq-rot img { display: block; width: 100%; height: auto; position: relative; }
+/* soft contact shadow so the base sits on the stone */
+#HeroQuote .hq-laptop::before { content: ''; position: absolute; z-index: 0; left: 4%; right: 2%; bottom: 1%; height: 11%; background: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, .75) 0%, rgba(0, 0, 0, .35) 45%, transparent 72%); filter: blur(10px); transform: translateY(8%); }
+/* frame size per breakpoint */
+@media (max-width: 991.98px) { #HeroQuote .hq-visual { width: 150%; margin-left: -25%; margin-right: 0; position: relative; } }
+@media (min-width: 992px) and (max-width: 1199.98px) { #HeroQuote .hq-visual { position: relative; z-index: auto; left: auto; bottom: auto; width: 122%; max-width: none; margin: 0 0 0 -8%; } }
+@media (min-width: 1200px) {
+    #HeroQuote .hq-visual { position: absolute; z-index: -1; margin: 0; left: 20%; width: 75%; bottom: 17%; pointer-events: none; }
+    #HeroQuote .hq-visual .hq-art {
+        -webkit-mask-image: linear-gradient(to right, transparent 0, #000 16%), linear-gradient(to bottom, transparent 0, #000 30%, #000 84%, transparent 100%), linear-gradient(to left, transparent 0, #000 9%);
+        mask-image: linear-gradient(to right, transparent 0, #000 16%), linear-gradient(to bottom, transparent 0, #000 30%, #000 84%, transparent 100%), linear-gradient(to left, transparent 0, #000 9%);
+    }
+}
+/* only the art fades in; the laptop must stay put so the intro can hand over to it */
+#HeroQuote.hq-js .hq-visual { animation: none; }
+@media (prefers-reduced-motion: no-preference) { #HeroQuote.hq-js .hq-aside { animation: hq-up .9s var(--hq-ease) 1.4s backwards; } }
+
+/* ---------- video on the laptop screen ----------
+   The screen lives in the laptop image's own 1536x1024 pixel space and is scaled by --k (image width / 1536),
+   so it moves, scales and tilts with the laptop everywhere. The video frame is warped onto the screen's four
+   measured corners with one matrix3d (perspective). */
+.hq-screen { position: absolute; left: 0; top: 0; width: 1536px; height: 1024px; transform-origin: 0 0; transform: scale(var(--k, .3)); pointer-events: none; }
+.hq-screen:not([data-ready]) { visibility: hidden; }
+.hq-screen video { position: absolute; left: 0; top: 0; width: 960px; height: 540px; display: block; object-fit: cover; background: #0b0d12; transform-origin: 0 0; transform: matrix3d(0.6267070694,-0.1059054254,0,-0.0001872462097,-0.2175647328,0.8774212037,0,-0.00006025192323,0,0,1,0,592.8,218.8,0,1); }
+
+/* tablets: the art frame was far taller than the content needs */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    #HeroQuote .hq-visual { width: 118%; margin-left: -9%; }
+}
+/* phones: the three services as an even row, icon above label (no stray divider on a wrapped item) */
+@media (max-width: 575.98px) {
+    #HeroQuote .hq-services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; }
+    #HeroQuote .hq-services li { flex-direction: column; align-items: flex-start; gap: 8px; padding: 0 10px; font-size: .8125rem; line-height: 1.25; }
+    #HeroQuote .hq-services li:first-child { padding-left: 0; }
+    #HeroQuote .hq-services li span { max-width: none; }
+    #HeroQuote .hq-services svg { width: 24px; height: 24px; }
+}
+
+/* ---------- call / WhatsApp row under the form (same pair as the side Get Proposal panel) ---------- */
+#HeroQuote .hq-or { display: flex; align-items: center; gap: 12px; margin: 16px 0 12px; font-size: .8125rem; color: rgba(255, 255, 255, .72); }
+#HeroQuote .hq-or::before, #HeroQuote .hq-or::after { content: ''; flex: 1; height: 1px; background: var(--hq-line); }
+#HeroQuote .hq-contact { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+#HeroQuote .hq-cbtn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 46px; border: 1px solid rgba(255, 255, 255, .35); border-radius: 10px; color: #fff; font-weight: 600; font-size: .9375rem; text-decoration: none; transition: border-color .2s, background-color .2s; }
+#HeroQuote .hq-cbtn:hover { border-color: #fff; background: rgba(255, 255, 255, .1); }
+#HeroQuote .hq-cbtn:focus-visible { outline: 3px solid var(--hq-yellow); outline-offset: 2px; }
+
+/* ---------- team photo opens full size ---------- */
+#HeroQuote .hq-team-open { display: block; flex: none; width: 230px; max-width: 100%; margin: 0; padding: 0; border: 0; background: none; font: inherit; line-height: 0; cursor: zoom-in; border-radius: 10px; }
+#HeroQuote .hq-team-open:focus-visible { outline: 3px solid var(--hq-yellow); outline-offset: 3px; }
+#HeroQuote .hq-team-open img { width: 100%; }
+#TeamPhoto.hq-photo { position: fixed; inset: 0; margin: auto; width: min(92vw, 1100px); max-width: none; height: fit-content; max-height: 90vh; padding: 0; border: 0; border-radius: 14px; background: #0b0b0c; overflow: visible; color: #fff; }
+#TeamPhoto.hq-photo::backdrop { background: rgba(0, 0, 0, .8); }
+#TeamPhoto.hq-photo img { display: block; width: 100%; height: auto; max-width: 100%; border-radius: 14px; }
+#TeamPhoto .hq-photo-x { position: absolute; top: -14px; right: -14px; width: 36px; height: 36px; padding: 0; border: 0; border-radius: 50%; background: #ffcb02; color: #0b0b0c; font-size: 22px; line-height: 1; cursor: pointer; }
+#TeamPhoto form { margin: 0; padding: 0; }
+
+/* ---------- floating widgets ---------- */
+#WhatsappContainer { transition: opacity .3s ease; }
+#WhatsappContainer.wa-away { opacity: 0; pointer-events: none; }
+
+/* ---------- consultant photo (same person as the side panel) ---------- */
+#HeroQuote .hq-person { display: flex; align-items: center; gap: 14px; margin: 0 0 16px; }
+#HeroQuote .hq-person img { flex: none; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; object-position: top; border: 2px solid var(--hq-yellow); }
+#HeroQuote .hq-person b { display: block; font-size: 1rem; line-height: 1.2; color: #fff; }
+#HeroQuote .hq-person span { display: block; font-size: .8125rem; line-height: 1.3; color: var(--hq-muted); }
+#HeroQuote .hq-online { display: flex; align-items: center; gap: 6px; margin-top: 4px; font-style: normal; font-size: .75rem; color: #6fe39a; }
+#HeroQuote .hq-online i { width: 8px; height: 8px; border-radius: 50%; background: #3ddc84; box-shadow: 0 0 0 3px rgba(61, 220, 132, .25); }
+/* call icon is a dark svg: turn it white on the dark card */
+#HeroQuote .hq-cbtn img[src*="call-icon"] { filter: brightness(0) invert(1); }
+@media (min-width: 992px) and (max-height: 800px) { #HeroQuote .hq-person { margin-bottom: 10px; } #HeroQuote .hq-person img { width: 52px; height: 52px; } }
+
+
+/* confirmation message in the hero card: app.css forces black text, unreadable on the dark glass */
+#HeroQuote .wpforms-confirmation-container-full,
+#HeroQuote .wpforms-confirmation-container-full p,
+#HeroQuote div[submit-success] > .wpforms-confirmation-container-full { color: #fff !important; font-family: inherit !important; font-size: 1.0625rem !important; line-height: 1.5 !important; }
+
+
+/* ---------- card mirrors the old slide-in panel ---------- */
+#HeroQuote .hq-tag { display: inline-block; margin: 0 0 10px; font-size: .75rem; font-weight: 600; letter-spacing: .06em; color: var(--hq-yellow); }
+#HeroQuote .hq-card h2 { margin-bottom: 14px; }
+#HeroQuote .hq-contact { margin: 0 0 16px; }
+#HeroQuote .hq-formtitle { margin: 0 0 14px; font-size: 1rem; font-weight: 600; line-height: 1.3; color: #fff; }
+
+/* wide screens: form hugs the right edge so the laptop stays in the clear */
+@media (min-width: 1200px) {
+    #HeroQuote .container { max-width: 1840px; padding-inline: clamp(24px, 4vw, 80px); }
+    #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 420px; }
+}
+@media (min-width: 1551px) { #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 470px; } }
+
+/* phones: title, line and the card with its form fit the first screen; no laptop, no extras */
+@media (max-width: 767.98px) {
+    #HeroQuote { display: flex; align-items: center; padding: 100px 0 16px; }
+    #HeroQuote .container { width: 100%; }
+    #HeroQuote::after { height: 40px; }
+    #HeroQuote .hq-visual, #HeroQuote .hq-eyebrow, #HeroQuote .hq-services, #HeroQuote .hq-actions, #HeroQuote .hq-proof, #HeroQuote .hq-aside { display: none; }
+    #HeroQuote .hq-grid { grid-template-areas: "copy" "form"; gap: 22px; }
+    #HeroQuote h1 { font-size: clamp(1.7rem, 8vw, 2.2rem); line-height: 1.05; }
+    #HeroQuote .hq-sub { margin-top: 8px; font-size: .9rem; line-height: 1.35; }
+    #HeroQuote .hq-card { padding: 16px 16px 14px; border-radius: 18px; }
+    #HeroQuote .hq-tag { margin-bottom: 4px; }
+    #HeroQuote .hq-card h2 { margin-bottom: 8px; font-size: 1.15rem; }
+    #HeroQuote .hq-person { margin-bottom: 8px; gap: 10px; }
+    #HeroQuote .hq-person img { width: 42px; height: 42px; }
+    #HeroQuote .hq-online { margin-top: 2px; }
+    #HeroQuote .hq-contact { margin-bottom: 10px; gap: 8px; }
+    #HeroQuote .hq-cbtn { height: 38px; font-size: .875rem; }
+    #HeroQuote .hq-formtitle { margin-bottom: 8px; font-size: .9rem; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-container { gap: 8px 10px; }
+    #HeroQuote #wpforms-form-31 .form-control { height: 40px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-label { margin-bottom: 3px; font-size: .8125rem; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit { height: 44px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit-container { margin-top: 10px !important; }
+}
+@media (min-width: 1200px) and (max-width: 1550.98px) { #HeroQuote .hq-visual { left: 31%; width: 40%; } }
+
+/* two-line title ("Websites That / Accelerate Business Growth"): lines never wrap, size scales so the long line always fits its column */
+#HeroQuote h1 .hq-line { white-space: nowrap; }
+#HeroQuote h1 em { white-space: nowrap; }
+@media (min-width: 992px) { #HeroQuote h1 { font-size: clamp(2.2rem, 4vw, 5rem); } }
+@media (min-width: 576px) and (max-width: 991.98px) { #HeroQuote h1 { font-size: clamp(2rem, 6.6vw, 3.4rem); } }
+@media (max-width: 575.98px) { #HeroQuote h1 { font-size: clamp(1.4rem, 6.5vw, 2rem); } }
+@media (min-width: 992px) and (max-height: 800px) { #HeroQuote h1 { font-size: clamp(2.2rem, min(4vw, 9vh), 5rem); } }
+
+/* ---------- laptop: bigger on desktop, tucked ~10% behind the form (positioned from the form's own edge so it holds at every width) ---------- */
+@media (min-width: 1200px) {
+    #HeroQuote { --hq-edge: clamp(24px, 4vw, 80px); --hq-fw: 420px; --hq-vw: min(43vw, 800px); }
+    #HeroQuote .hq-visual { left: auto; width: var(--hq-vw); right: calc(var(--hq-edge) + var(--hq-fw) - 0.14 * var(--hq-vw)); }
+}
+@media (min-width: 1400px) { #HeroQuote { --hq-vw: min(48vw, 880px); } }
+@media (min-width: 1551px) { #HeroQuote { --hq-fw: 470px; } }
+@media (min-width: 1800px) { #HeroQuote { --hq-vw: min(50vw, 920px); } }
+
+/* ---------- tablets and foldables (768-1199): copy + laptop left, form right, all inside one screen ---------- */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #HeroQuote { min-height: 100vh; min-height: 100svh; display: flex; align-items: center; padding: 96px 0 36px; }
+    #HeroQuote .container { width: 100%; }
+    #HeroQuote .hq-grid { max-width: none; margin: 0; grid-template-columns: minmax(0, 1fr) 340px; grid-template-areas: "copy form" "visual form"; column-gap: 28px; row-gap: 12px; align-items: center; }
+    #HeroQuote .hq-services, #HeroQuote .hq-actions, #HeroQuote .hq-proof, #HeroQuote .hq-aside { display: none; }
+    #HeroQuote .hq-eyebrow { margin-bottom: 12px; }
+    #HeroQuote h1 { font-size: clamp(1.4rem, calc((100vw - 450px) / 13), 3.4rem); }
+    #HeroQuote .hq-sub { margin-top: 12px; font-size: .95rem; line-height: 1.4; }
+    #HeroQuote .hq-visual { position: relative; z-index: auto; left: auto; bottom: auto; right: auto; width: 100%; max-width: 560px; margin: 0; align-self: start; }
+    #HeroQuote .hq-card { padding: 22px 22px 18px; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-container { grid-template-columns: 1fr; gap: 10px; }
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_1-container,
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_2-container { grid-column: 1 / -1; }
+    #HeroQuote #wpforms-form-31 .form-control { height: 44px !important; }
+}
+/* very small phones / folded foldables */
+@media (max-width: 575.98px) { #HeroQuote h1 { font-size: clamp(1rem, 7vw, 2.4rem); } }
+
+/* short landscape screens below 768 wide (Surface Duo sideways, small foldables): same two-column hero, tighter */
+@media (min-width: 640px) and (max-width: 767.98px) and (orientation: landscape) {
+    #HeroQuote { padding: 70px 0 18px; }
+    #HeroQuote .hq-grid { max-width: none; grid-template-columns: minmax(0, 1fr) 330px; grid-template-areas: "copy form"; column-gap: 24px; align-items: center; }
+    #HeroQuote .hq-eyebrow { display: flex; margin-bottom: 8px; }
+    #HeroQuote h1 { font-size: clamp(1.3rem, calc((100vw - 400px) / 12.6), 2.4rem); }
+    #HeroQuote .hq-card { padding: 14px 16px 12px; }
+    #HeroQuote #wpforms-form-31 .wpforms-field-container { grid-template-columns: 1fr 1fr; }
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_1-container { grid-column: 1 / 2; }
+    #HeroQuote #wpforms-form-31 #wpforms-31-field_2-container { grid-column: 2 / 3; }
+    #HeroQuote .hq-person { margin-bottom: 6px; }
+    #HeroQuote .hq-person img { width: 36px; height: 36px; }
+}
+
+/* ---------- hero visual: backdrop + laptop + poster fade in together (no placeholder shape) ---------- */
+#HeroQuote .hq-visual .hq-art, #HeroQuote .hq-visual .hq-laptop { transition: opacity .6s ease; }
+#HeroQuote.hq-js .hq-visual:not(.hq-ready) .hq-art, #HeroQuote.hq-js .hq-visual:not(.hq-ready) .hq-laptop { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { #HeroQuote .hq-visual .hq-art, #HeroQuote .hq-visual .hq-laptop { transition: none; } }
+@media (max-width: 340px) { #HeroQuote h1 { font-size: 6vw; } #HeroQuote { padding-top: 100px; } }
+
+
+/* ---------- home-form polish ---------- */
+/* no visible labels (the placeholders carry the text); labels stay in the DOM for screen readers */
+#HeroQuote #wpforms-form-31 .wpforms-field-label {
+    position: absolute !important; display: block !important; width: 1px !important; height: 1px !important; margin: -1px !important; padding: 0 !important;
+    overflow: hidden !important; clip: rect(0 0 0 0) !important; clip-path: inset(50%) !important; white-space: nowrap !important; border: 0 !important;
+}
+#HeroQuote #wpforms-form-31 .wpforms-field input, #HeroQuote #wpforms-form-31 .wpforms-field textarea, #HeroQuote #wpforms-form-31 .form-control { cursor: text !important; }
+
+/* buttons match the ones further down the page: white "Call Now", green "WhatsApp", 7px corners */
+#HeroQuote .hq-cbtn { height: 42px; border: 1px solid transparent; border-radius: 7px; font-size: .9375rem; font-weight: 500; }
+#HeroQuote .hq-cbtn[href^="tel"] { background: #fff; color: #000; }
+#HeroQuote .hq-cbtn[href^="tel"] img { filter: none !important; }
+#HeroQuote .hq-cbtn[href*="wa.me"] { background: #25d366; color: #fff; }
+#HeroQuote .hq-cbtn[href^="tel"]:hover { background: transparent; color: #fff; border-color: #fff; }
+#HeroQuote .hq-cbtn[href^="tel"]:hover img { filter: brightness(0) invert(1) !important; }
+#HeroQuote .hq-cbtn[href*="wa.me"]:hover { background: transparent; color: #25d366; border-color: #25d366; }
+#HeroQuote .hq-btn, #HeroQuote #wpforms-form-31 .wpforms-submit { border-radius: 7px !important; }
+
+/* wide screens: sit the laptop lower so its lid clears the (long) title line */
+@media (min-width: 1200px) { #HeroQuote .hq-visual { bottom: 7%; } }
+
+/* ---------- desktop: the whole hero (title, form, proof strip) fits one screen, no scrolling ---------- */
+@media (min-width: 1200px) {
+    #HeroQuote { padding: clamp(84px, 11vh, 120px) 0 clamp(20px, 4vh, 44px); }
+    #HeroQuote::after { height: clamp(48px, 9vh, 110px); }
+    #HeroQuote .hq-grid { row-gap: clamp(14px, 3vh, 40px); }
+}
+@media (min-width: 1200px) and (max-height: 680px) {
+    #HeroQuote { padding-top: 76px; padding-bottom: 14px; }
+    #HeroQuote .hq-eyebrow { margin-bottom: 8px; }
+    #HeroQuote .hq-sub { margin-top: 8px; font-size: 1rem; }
+    #HeroQuote .hq-services { margin-top: 12px; }
+    #HeroQuote .hq-actions { margin-top: 14px; }
+    #HeroQuote .hq-btn { height: 42px; }
+    #HeroQuote .hq-grid { row-gap: 10px; }
+    #HeroQuote .hq-card { padding: 14px 20px 14px; }
+    #HeroQuote .hq-tag { margin-bottom: 4px; }
+    #HeroQuote .hq-card h2 { margin-bottom: 8px; }
+    #HeroQuote .hq-person { margin-bottom: 8px; }
+    #HeroQuote .hq-person img { width: 44px; height: 44px; }
+    #HeroQuote .hq-contact { margin-bottom: 10px; }
+    #HeroQuote .hq-formtitle { margin-bottom: 8px; }
+    #HeroQuote #wpforms-form-31 .form-control { height: 40px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit { height: 42px !important; }
+    #HeroQuote #wpforms-form-31 .wpforms-submit-container { margin-top: 10px !important; }
+    #HeroQuote .hq-aside { margin-top: 6px; }
+}
+
+/* ---------- hero -> next section: long, eased dark-to-page dissolve ----------
+   The hero ends exactly at the bottom of the screen. Its backdrop keeps going into the block below (.hq-spacer, same height),
+   and that block fades the backdrop out into the page colour, so the dissolve is long and has no seam. */
+#HeroTrack { --hq-dis: clamp(140px, 24vh, 280px); }
+#HeroQuote { overflow: visible; overflow-x: clip; }
+#HeroQuote::after { display: none; }
+#HeroQuote .hq-bg { inset: 0 0 calc(var(--hq-dis) * -1 + 2px) 0; }
+#HeroTrack .hq-spacer {
+    position: relative; z-index: 1; height: var(--hq-dis); margin-top: -1px; pointer-events: none;
+    background: linear-gradient(to bottom, rgba(245, 247, 251, 0) 0%, rgba(245, 247, 251, .03) 12%, rgba(245, 247, 251, .12) 27%, rgba(245, 247, 251, .3) 42%, rgba(245, 247, 251, .55) 57%, rgba(245, 247, 251, .8) 72%, rgba(245, 247, 251, .94) 86%, #f5f7fb 100%);
+}
+
+/* phones: looping office video behind the hero (the dark backdrop image stays underneath until it plays) */
+#HeroQuote .hq-bgvideo { display: none; }
+@media (max-width: 767.98px) {
+    #HeroQuote .hq-bgvideo { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .8s ease; filter: brightness(.3) contrast(1.1) saturate(.9); pointer-events: none; }
+    #HeroQuote .hq-bgvideo.is-playing { opacity: 1; }
+}
+
+/* ---------- slimmer form card; name and phone on their own lines; icon-only Call / WhatsApp that expand on hover ---------- */
+@media (min-width: 1200px) {
+    #HeroQuote { --hq-fw: 350px; }
+    #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 350px; }
+}
+@media (min-width: 1551px) { #HeroQuote { --hq-fw: 380px; } #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 380px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) { #HeroQuote .hq-grid { grid-template-columns: minmax(0, 1fr) 340px; } }
+#HeroQuote .hq-card h2 { font-size: clamp(1.4rem, 1.1rem + .6vw, 1.625rem); }
+#HeroQuote #wpforms-form-31 .wpforms-field-container { grid-template-columns: 1fr; gap: 10px; }
+#HeroQuote #wpforms-form-31 #wpforms-31-field_1-container,
+#HeroQuote #wpforms-form-31 #wpforms-31-field_2-container { grid-column: 1 / -1; }
+
+#HeroQuote .hq-contact { display: flex; gap: 10px; }
+#HeroQuote .hq-cbtn { flex: none; width: auto; max-width: 46px; padding: 0 12px; gap: 0; justify-content: flex-start; overflow: hidden; white-space: nowrap; transition: max-width .4s var(--hq-ease), gap .4s, background-color .2s, color .2s, border-color .2s; }
+#HeroQuote .hq-cbtn .hq-clabel { max-width: 0; opacity: 0; overflow: hidden; transition: max-width .4s var(--hq-ease), opacity .25s; }
+#HeroQuote .hq-cbtn:hover, #HeroQuote .hq-cbtn:focus-visible { max-width: 190px; gap: 8px; padding-right: 18px; }
+#HeroQuote .hq-cbtn:hover .hq-clabel, #HeroQuote .hq-cbtn:focus-visible .hq-clabel { max-width: 120px; opacity: 1; }
+@media (hover: none) { /* touch screens have no hover: keep the labels visible */
+    #HeroQuote .hq-contact { display: grid; grid-template-columns: 1fr 1fr; }
+    #HeroQuote .hq-cbtn { max-width: none; justify-content: center; gap: 8px; padding: 0 12px; }
+    #HeroQuote .hq-cbtn .hq-clabel { max-width: none; opacity: 1; }
+}
+
+/* video on the laptop screen: the perspective warp leaves stair-stepped edges against the bezel.
+   A soft dark inner edge (same colour as the bezel) hides the staircase, and the layer is promoted so it is composited with smoothing. */
+.hq-screen video { border-radius: 14px; box-shadow: inset 0 0 8px 6px #060608, inset 0 0 0 3px #060608; will-change: transform; backface-visibility: hidden; -webkit-backface-visibility: hidden; outline: 1px solid #060608; }
+
+/* Call / WhatsApp accordion: Call is open by default; hovering WhatsApp opens it and closes Call; leaving returns to Call, so one is always open */
+@media (hover: hover) {
+    #HeroQuote .hq-contact:not(:has(.hq-cbtn:hover)) .hq-cbtn[href^="tel"],
+    #HeroQuote .hq-cbtn:hover, #HeroQuote .hq-cbtn:focus-visible { max-width: 190px; gap: 8px; padding-right: 18px; }
+    #HeroQuote .hq-contact:not(:has(.hq-cbtn:hover)) .hq-cbtn[href^="tel"] .hq-clabel,
+    #HeroQuote .hq-cbtn:hover .hq-clabel, #HeroQuote .hq-cbtn:focus-visible .hq-clabel { max-width: 120px; opacity: 1; }
+    /* the open Call button wears its hover colours (outlined) */
+    #HeroQuote .hq-contact:not(:has(.hq-cbtn:hover)) .hq-cbtn[href^="tel"] { background: transparent; color: #fff; border-color: #fff; }
+    #HeroQuote .hq-contact:not(:has(.hq-cbtn:hover)) .hq-cbtn[href^="tel"] img { filter: brightness(0) invert(1) !important; }
+}
+
+/* laptop sits on the slab's surface instead of floating above it */
+#HeroQuote .hq-laptop { top: 21.5%; }
+
+/* floating GET PROPOSAL tab: one vertical line, never wraps into two columns */
+.talktoExpertCard .talktoExpertToggle { white-space: nowrap; height: auto; }
+
+/* phones: breathing room around title and card */
+@media (max-width:767.98px){#HeroQuote{padding-top:120px}#HeroQuote .container{padding-left:20px;padding-right:20px}#HeroQuote .hq-grid{gap:28px}#HeroQuote .hq-sub{margin-top:12px}}
+
+/* phones: short fade into next section, roomier card */
+@media (max-width:767.98px){#HeroTrack{--hq-dis:48px}#HeroQuote{padding-bottom:28px}#HeroQuote .hq-card{padding:20px 18px 18px}#HeroQuote .hq-person{margin-bottom:12px}#HeroQuote .hq-contact{margin-bottom:14px}#HeroQuote .hq-formtitle{margin-bottom:12px}#HeroQuote #wpforms-form-31 .wpforms-field-container{gap:12px 10px}#HeroQuote #wpforms-form-31 .wpforms-submit-container{margin-top:14px!important}}
+
+/* WhatsApp float only after the hero (set by the inline script before the float) */
+html:not(.wa-show) #WhatsappContainer{opacity:0;pointer-events:none}

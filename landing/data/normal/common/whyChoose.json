@@ -1,0 +1,294 @@
+{
+  "mainTitle": "Why Choose Us",
+  "testimonial": {
+    "title": "Clients & Testimonials",
+    "description": "Trusted by 1,500+ businesses across India, the UAE, and globally. Over 2,150+ successful projects delivered since 2011.",
+    "sideTitle": "1500+ global clients",
+    "textTestimonials": [
+      {
+        "quote": "We had a wonderful experience working with Intersmart Solutions for the development of the website for The Village International School. Their team is highly competent, professional, and very easy to work with throughout the entire process. A special mention goes to Jissa, our Relationship Manager, who provided excellent support and coordination at every stage. Her responsiveness, attention to detail, and willingness to address our requirements promptly made the entire process smooth and efficient. The team delivered creative work that aligned well with our vision for the school’s online presence. Their prompt responses and quick action on feedback and changes were truly appreciated. We are very satisfied with the final outcome and would highly recommend Intersmart Solutions to anyone looking for reliable and creative web development services.",
+        "name": "Aravind Malayattil",
+        "designation": "Kerala, India",
+        "image": "images/aravind.png"
+      },
+      {
+        "quote": "We recently worked with Inter Smart to design and develop our website, and we’re very pleased with the results. From the initial discussions to the final launch, their professionalism, creativity, and attention to detail truly stood out. They clearly understood our requirements, communicated effectively throughout the process, and delivered a modern, user-friendly website that met our expectations. The entire project was completed smoothly and on time, and the final outcome has received great feedback from our team. We highly recommend their services to anyone looking for a reliable and talented web development partner. Thank you for the excellent work!",
+        "name": "Mohammed Faizan",
+        "designation": "UAE",
+        "image": "images/placeholder.webp"
+      },
+      {
+        "quote": "We recently worked with InterSmart on the redesign of the Life Smoothies website and are very pleased with the outcome. The team was professional and responsive. Special thanks to Rony, our project manager, who ensured the project ran smoothly from start to finish. His communication and attention to detail made a real difference.",
+        "name": "Marketing Life Smoothies",
+        "designation": "uae",
+        "image": "images/placeholder.webp"
+      },
+      {
+        "quote": "We got our website designed and developed by InterSmart, and we’re truly happy with the way it turned out. From the very beginning, the team was professional, responsive, and easy to work with. They took the time to understand our specific needs and vision, offering thoughtful suggestions along the way to enhance both functionality and user experience. What we appreciated most was their collaborative approach — they were always open to feedback and quick to implement changes without compromising on quality. The final result is a website that not only looks great but also aligns perfectly with our brand and purpose. We’re grateful to the InterSmart team for their dedication and expertise, and we wouldn’t hesitate to recommend them to anyone looking for reliable web development and design services.",
+        "name": "Nihshreyasa Social",
+        "designation": "Kerala, India",
+        "image": "images/nihshreyasa.png"
+      },
+      {
+        "quote": "We had a great experience working with team Intersmart for website designing and development. They made the entire process so smooth and straightforward. Their team (especially Shekha and Shaino) was quick to respond and handled both the design and development parts efficiently.The end result turned out just as we had hoped, and their professionalism really stood out. Great job, team!*",
+        "name": "Subodh Maithani",
+        "designation": "India",
+        "image": "images/Subodh.jpeg"
+      },
+      {
+        "quote": "We had an amazing experience working with Inter Smart on the admission portal for the Medical Trust Institute of Medical Science. The team completed the project in just 43 days, ensuring all aspects were covered, from the registration setup to payment gateway integration. The entire process was handled professionally. The backend functionalities, including mark calculations and rank list generation, were executed flawlessly. The registration and fee payment systems were successfully integrated, and we couldn’t be happier with the results. Bindhu’s exceptional project coordination ensured a smooth process from start to finish. We are extremely satisfied with the timely and efficient results, and the system’s seamless integration has been a huge success for this year’s admissions. We highly recommend Inter Smart for their expertise and professionalism.",
+        "name": "Sanoj",
+        "designation": "India",
+        "image": "images/placeholder.webp"
+      }
+    ],
+    "videoTestimonials": [
+      {
+        "video": "videos/Sereena.mp4",
+        "name": "Serana Moosa",
+        "designation": "Managing Director of Damaar",
+        "image": "images/sereena.webp"
+      },
+      {
+        "video": "videos/Nih.mp4",
+        "name": "Jerry",
+        "designation": "Founder Nihshreyasa",
+        "image": "images/nihshreyasa.png"
+      }
+    ],
+    "clients": [
+      "images/byd-logo_.png",
+      "images/ufc-gym-logo.png",
+      "images/wipro_logo.png",
+      "images/Ford-logo.png",
+      "images/Gems logo.png",
+      "images/bharatamatacollege.webp",
+      "images/yokohama-logo.png",
+      "images/willywhyte.png",
+      "images/Indel-Money-Logo.png",
+      "images/jayalakshmi logo.png",
+      "images/barath-benz_11zon.png",
+      "images/muthoot-group_11zon.webp"
+    ]
+  },
+  "awards": {
+    "title": "Awards & Recognition",
+    "description": "Inter Smart's commitment to design excellence and digital innovation has earned recognition on global and national platforms.",
+    "sideTitle": "Global & national honours",
+    "items": [
+      {
+        "image": "images/award-1.svg",
+        "name": "Clutch",
+        "text": "Top Web Developers Enterprise India"
+      },
+      {
+        "image": "images/award-2.svg",
+        "name": "Clutch",
+        "text": "Top Web Design Company 2026"
+      },
+      {
+        "image": "images/award-3.svg",
+        "name": "Clutch",
+        "text": "Top Advertising & Marketing India 2022"
+      },
+      {
+        "image": "images/award-4.svg",
+        "name": "Clutch",
+        "text": "Global Spring 2024"
+      },
+      {
+        "image": "images/award-5.svg",
+        "name": "Goodfirms",
+        "text": "Top Digital Marketing Company"
+      },
+      {
+        "image": "images/award-6.svg",
+        "name": "German Web Awards",
+        "text": "Top 250 Agency of the Year 2025"
+      },
+      {
+        "image": "images/award-4.svg",
+        "name": "Clutch",
+        "text": "Global Spring 2024"
+      }
+    ]
+  },
+  "technology": {
+    "title": "Technologies & Expertise",
+    "description": "From web design to ERP systems, mobile apps to SEO, our 130+ professionals command every layer of the modern digital stack.",
+    "sideTitle": "Full-service digital stack",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "images/tech-1.svg"
+      },
+      {
+        "name": "PHP",
+        "icon": "images/tech-2.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "images/tech-3.svg"
+      },
+      {
+        "name": "Laravel",
+        "icon": "images/tech-4.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "images/tech-5.svg"
+      },
+      {
+        "name": "DevOps",
+        "icon": "images/tech-6.svg"
+      },
+      {
+        "name": "Figma",
+        "icon": "images/tech-7.svg"
+      },
+      {
+        "name": "Wordpress",
+        "icon": "images/tech-8.svg"
+      },
+      {
+        "name": "AWS",
+        "icon": "images/tech-9.svg"
+      },
+      {
+        "name": "JS",
+        "icon": "images/tech-10.svg"
+      },
+      {
+        "name": "Laravel",
+        "icon": "images/tech-4.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "images/tech-5.svg"
+      },
+      {
+        "name": "DevOps",
+        "icon": "images/tech-6.svg"
+      },
+      {
+        "name": "Figma",
+        "icon": "images/tech-7.svg"
+      }
+    ],
+    "technologyInfo": [
+      {
+        "title": "Web Design & Development",
+        "items": [
+          "WordPress, PHP",
+          "UI/UX Design & Graphic Design",
+          "Animation & Motion Graphics",
+          "Responsive Website Design"
+        ]
+      },
+      {
+        "title": "Mobile & Software",
+        "items": [
+          "iOS & Android App Development",
+          "ERP Solutions (custom & scalable)",
+          "Software Development"
+        ]
+      },
+      {
+        "title": "Digital Marketing",
+        "items": [
+          "SEO (On-page/Off-page)",
+          "PPC / Google Ads",
+          "Social Media Marketing & Management",
+          "Content Writing & Branding",
+          "Content Management Systems (CMS)"
+        ]
+      },
+      {
+        "title": "Infrastructure & Partnerships",
+        "items": ["Web Hosting", "Domain Registration & CDN"]
+      }
+    ]
+  },
+  "whywwedifferent": {
+    "title": "Why We're Different",
+    "description": "Kerala's leading web agency established in 2011, with offices in India, UAE & Germany.",
+    "sideTitle": "Our unique advantage",
+    "items": {
+      "numberItems": [
+        {
+          "title": "<span>15</span>+ Years & <span>4</span> Global Offices",
+          "description": "Operating from Kochi, UAE, and Germany, we bring local expertise and international standards to every project."
+        },
+        {
+          "title": "<span>1500</span> Clients & <span>2150</span> Successful Projects",
+          "description": "Trusted by businesses across industries, we have delivered over 2,150 successful projects for 1,500+ clients worldwide."
+        },
+        {
+          "title": "<span>130+</span> Skilled Experts",
+          "description": "Backed by a strong in-house team of 130+ professionals, we combine creativity, technical expertise, and strategic thinking to execute projects with precision."
+        }
+      ],
+      "textItems": [
+        {
+          "title": "Client Vision First",
+          "description": "We adopt your vision and mission as our own. Our team listens and collaborates openly to deliver solutions tailored to your exact goals."
+        },
+        {
+          "title": "End-to-End Digital Solutions",
+          "description": "From strategy and design to development and marketing, we handle everything under one roof for seamless execution."
+        },
+        {
+          "title": "Post-Launch Support & Growth",
+          "description": "Our relationship doesn't end at launch—we provide ongoing support and optimization to help you scale."
+        }
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "description": "Inter Smart serves businesses across diverse verticals, bringing sector-specific understanding to every digital solution.",
+    "sideTitle": "16+ countries covered",
+    "industries": [
+      {
+        "name": "Healthcare",
+        "icon": "images/serve-1.svg"
+      },
+      {
+        "name": "Real Estate",
+        "icon": "images/serve-2.svg"
+      },
+      {
+        "name": "Education",
+        "icon": "images/serve-3.svg"
+      },
+      {
+        "name": "Retail & E-commerce",
+        "icon": "images/serve-4.svg"
+      },
+      {
+        "name": "Fitness & Wellness",
+        "icon": "images/serve-5.svg"
+      },
+      {
+        "name": "Construction & Manufacturing",
+        "icon": "images/serve-6.svg"
+      },
+      {
+        "name": "Hospitality",
+        "icon": "images/serve-7.svg"
+      },
+      {
+        "name": "Entertainment & Media",
+        "icon": "images/serve-8.svg"
+      },
+      {
+        "name": "Finance & Banking",
+        "icon": "images/serve-9.svg"
+      },
+      {
+        "name": "Automotive",
+        "icon": "images/serve-10.svg"
+      }
+    ]
+  }
+}

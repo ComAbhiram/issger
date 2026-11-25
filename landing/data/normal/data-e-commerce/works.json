@@ -1,0 +1,76 @@
+{
+  "section": {
+    "smallTitle": "Our Work",
+    "description": "If your website feels like everyone else’s, your audience will treat you like everyone else. We help you cross that line. Growth needs something sharper, louder, and a lot more intentional.",
+    "mainTitle": "For brands that <br> are done blending in."
+  },
+  "slides": [
+    {
+      "items": [
+        {
+          "image": "images/work-3.webp",
+          "video": "videos/BYD-work.mp4",
+          "label": "Website design & Development",
+          "title": "BYD Cars, Oman"
+        },
+        {
+          "image": "images/wipro-thumbnail.webp",
+          "video": "videos/Wipro-work.mp4",
+          "label": "Website design & Development",
+          "title": "Wipro"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "image": "images/work-4.webp",
+          "video": "videos/UFC-work.mp4",
+          "label": "Website design & Development",
+          "title": "UFC Gym , UAE"
+        },
+        {
+          "image": "images/YOKOHOMA-preview.webp",
+          "video": "videos/Yokohama small.mp4",
+          "label": "Website design & Development",
+          "title": "Yokohama Tyres"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "image": "images/work-1.webp",
+          "video": "videos/Gems-work.mp4",
+          "label": "Website design & Development",
+          "title": "Gems Modern Academy"
+        },
+        {
+          "image": "images/work-2.webp",
+          "video": "videos/Jaya-work.mp4",
+          "label": "Website design & Development",
+          "title": "Jayalakshmi Textiles"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "image": "images/work-5.webp",
+          "video": "videos/Indel-Money-work.mp4",
+          "label": "Website design & Development",
+          "title": "Indel Money"
+        },
+        {
+          "image": "images/shabab-al-ahli-thumbnail.webp",
+          "video": "videos/Shababali-1.mp4",
+          "label": "Website design & Development",
+          "title": "Shabab AlAhli"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "text": "View All Works"
+  }
+}

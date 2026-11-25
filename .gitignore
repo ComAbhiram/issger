@@ -1,0 +1,11 @@
+# git/push credentials: never push
+.github-push.local
+push.sh
+
+# WordPress default themes
+twenty*/
+index.php
+
+# local backups and archives
+*-bak-*
+*.zip

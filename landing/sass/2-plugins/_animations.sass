@@ -1,0 +1,284 @@
+//ANIMATIONS
+
+@property --background-gradient-1
+    syntax: '<color>'
+    initial-value: #FFCB02
+    inherits: false
+
+@property --background-gradient-2
+    syntax: '<color>'
+    initial-value: rgba(#FFCB02,0.2)
+    inherits: false
+
+@property --background-gradient-angle
+    syntax: '<angle>'
+    initial-value: 90deg
+    inherits: false
+
+@keyframes gradientSwap
+    0%
+        --background-gradient-1: #FFCB02
+        --background-gradient-2: rgba(#FFCB02,0.2)
+        --background-gradient-angle: 80deg
+    100%
+        --background-gradient-1: #FFCB02
+        --background-gradient-2: rgba(#FFCB02,0.2)
+        --background-gradient-angle: 100deg
+
+@keyframes slideDownSmooth
+    from
+        transform: translateY(-100%)
+    to
+        transform: translateY(0)
+
+@keyframes fadeInDown
+    0%
+        opacity: 0
+        transform: translate3d(0, -100%, 0)
+
+    100%
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+@keyframes vibrate
+    0%
+        -webkit-transform: translate(0)
+        transform: translate(0)
+
+    20%
+        -webkit-transform: translate(-8px, 8px)
+        transform: translate(-8px, 8px)
+
+    40%
+        -webkit-transform: translate(-8px, -8px)
+        transform: translate(-8px, -8px)
+
+    60%
+        -webkit-transform: translate(8px, 8px)
+        transform: translate(8px, 8px)
+
+    80%
+        -webkit-transform: translate(8px, -8px)
+        transform: translate(8px, -8px)
+
+    100%
+        -webkit-transform: translate(0)
+        transform: translate(0)
+
+@keyframes rotation
+    0%
+        transform: scaleX(-1) rotate(360deg)
+    100%
+        transform: scaleX(-1) rotate(0deg)
+
+@keyframes toTopFromBottom
+    49%
+        transform: translateY(-100%)
+
+    50%
+        opacity: 0
+        transform: translateY(50%)
+    100%
+        transform: translateY(-100%)
+
+    51%
+        opacity: 1
+
+@keyframes EqIconanim
+    0%
+        transform: translateX(0%)
+    25%
+        transform: translateX(50%)
+    50%
+        transform: translateX(4px)
+    75%
+        transform: translateX(50%)
+    100%
+        transform: translateX(0%)
+
+@keyframes flying
+    0% ,100%
+        transform: translate(0%, 0%)
+
+    25%
+        transform: translate(45%, 35%)
+
+    50%
+        transform: translate(70%, 27%)
+
+    75%
+        transform: translate(12%, 80%)
+
+@keyframes swinging
+    0%
+        transform: rotate(2deg)
+    50%
+        transform: rotate(-2deg)
+    100%
+        transform: rotate(2deg)
+
+@keyframes scroll
+    0%
+        transform: translateY(0%)
+    50%
+        transform: translateY(-53%)
+
+@keyframes scrollx
+    0%
+        transform: translateY(0%)
+    50%
+        transform: translateY(75%)
+    // 75%
+    //     transform: rotate(0%)
+    // 100%
+    //     transform: rotate(100%)
+@keyframes spin
+    100%
+        -webkit-transform: rotate(360deg)
+        transform: rotate(360deg)
+
+@keyframes TobTObOTTOM
+    0%
+        transform: translateY(0%)
+
+    50%
+        transform: translateY(100%)
+
+    100%
+        transform: translateY(100%)
+
+@keyframes move
+    0%
+        transform: translateY(0)
+
+    25%
+        transform: translateY(-100%)
+
+    50%
+        transform: translateY(-200%)
+
+    75%
+        transform: translateY(-300%)
+
+    100%
+        transform: translateY(-400%)
+
+@keyframes reveal
+    0%
+        opacity: 0
+        transform: translateY(60px)
+    50%
+        opacity: 0
+        transform: translateY(60px)
+    100%
+        opacity: 1
+        transform: translateY(0px)
+
+@keyframes scrollMove
+    0%
+        opacity: 0
+        transform: translateY(50px)
+
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+@keyframes gradientBorderShift
+    0%
+        background-position: 0% 50%
+
+    100%
+        background-position: 200% 50%
+
+@keyframes slideUp
+    0%
+        opacity: 0
+        transform: translateY(30px)
+
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+@keyframes slideDown
+    0%
+        opacity: 1
+        transform: translateY(0)
+
+    100%
+        opacity: 0
+        transform: translateY(-30px)
+
+@keyframes borderMove
+    0%
+        background-position: 0% 50%
+    50%
+        background-position: 100% 50%
+    100%
+        background-position: 0% 50%
+
+@keyframes arrow-move
+    0%
+        transform: translateX(0)
+
+    50%
+        transform: translateX(5px)
+
+    100%
+        transform: translateX(0)
+
+@keyframes charFloat
+    0%
+        transform: translateY(0)
+    50%
+        transform: translateY(-10px)
+    100%
+        transform: translateY(0)
+@keyframes steam
+    0%
+        background-position: 0% 50%
+    100%
+        background-position: 400% 50%
+@keyframes jump
+    0%, 100%, 40%
+        transform: translateY(0)
+        background-color: #9C9C9E
+
+    20%
+        transform: translateY(-5px)
+        background-color: #FFCB02
+
+    60%
+        transform: translateY(0)
+
+@keyframes symbolPulse
+    0%, 100%
+        transform: scale(1)
+        opacity: 1
+    50%
+        transform: scale(1.1)
+        opacity: 0.8
+
+@keyframes floatIn
+    0%
+        transform: translateY(15px)
+
+    50%
+        transform: translateY(0)
+    100%
+        transform: translateY(15px)
+@keyframes blink
+    0%
+        box-shadow: 0 0 0 0 $white
+
+    50%
+        box-shadow: 0 0 0 20px rgba(255,255,255,0)
+
+    100%
+        box-shadow: 0 0 0 rgba(255,255,255,0)
+
+@keyframes dateShadowPulse
+    0%, 100%
+        box-shadow: 0 0px 1px rgba(0, 0, 0, .1), inset 0 1px 1px hsl(0deg 0% 100% / 65%), inset 0 -1px 1px hsla(0, 0%, 100%, .5)
+        border-color: rgba(255, 255, 255, 0.1)
+    50%
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.08), inset 0 2px 2px hsl(0deg 0% 100% / 90%), inset 0 -2px 2px hsla(0, 0%, 100%, .7)
+        border-color: rgba(255, 255, 255, 0.2)

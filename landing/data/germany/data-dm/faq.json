@@ -1,0 +1,45 @@
+{
+  "title": "Häufige<br /> Fragen",
+  "items": [
+    {
+      "id": "01",
+      "question": "Was bringt Digital Marketing meinem Unternehmen konkret?",
+      "answer": "Mehr Menschen aus Ihrer Region finden Sie bei Google, rufen an oder stellen eine Anfrage. Wir konzentrieren uns auf Suchende, die gerade jemanden wie Sie brauchen, und messen den Erfolg an Anfragen, nicht an Klicks."
+    },
+    {
+      "id": "02",
+      "question": "Woran sehe ich, was es gebracht hat?",
+      "answer": "Sie erhalten jeden Monat einen kurzen Bericht: Zahl der Anfragen und Anrufe, Kosten pro Anfrage und woher sie kamen."
+    },
+    {
+      "id": "03",
+      "question": "Was kostet Digital Marketing bei Ihnen?",
+      "answer": "Unsere Betreuung beginnt ab 399 € im Monat zzgl. Werbebudget. Das Werbebudget zahlen Sie direkt an Google oder Meta. Wie viel sinnvoll ist, besprechen wir im Erstgespräch anhand Ihrer Region und Branche."
+    },
+    {
+      "id": "04",
+      "question": "Welche Leistungen bieten Sie an?",
+      "answer": "Lokales Marketing mit Google-Unternehmensprofil und Bewertungen, SEO, Google Ads und Meta Ads sowie Social Media. Wenn nötig, verbessern wir auch Ihre Website, damit aus Besuchern Anfragen werden."
+    },
+    {
+      "id": "05",
+      "question": "Wie lange bin ich an den Vertrag gebunden?",
+      "answer": "Monatlich kündbar. Wir möchten Sie mit Ergebnissen halten, nicht mit langen Verträgen."
+    },
+    {
+      "id": "06",
+      "question": "Wann sehe ich erste Ergebnisse?",
+      "answer": "Anzeigen bei Google sind meist wenige Tage nach dem Start sichtbar und bringen oft schon in den ersten Wochen Anfragen. SEO und das Google-Unternehmensprofil brauchen einige Monate, wirken dafür aber dauerhaft."
+    },
+    {
+      "id": "07",
+      "question": "Wie stellen Sie sicher, dass mein Budget nicht verschwendet wird?",
+      "answer": "Wir zeigen Anzeigen nur in Ihrem Einzugsgebiet und nur bei passenden Suchbegriffen, prüfen regelmäßig, wofür Geld ausgegeben wird, und streichen, was keine Anfragen bringt."
+    },
+    {
+      "id": "08",
+      "question": "Wie viel Aufwand habe ich selbst?",
+      "answer": "Wenig. Zum Start brauchen wir ein Gespräch über Ihr Angebot und Ihre Kunden sowie Zugänge zu Website und Google-Profil. Danach reichen kurze Freigaben und Ihr Feedback, welche Anfragen gepasst haben."
+    }
+  ]
+}

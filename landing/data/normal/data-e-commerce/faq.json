@@ -1,0 +1,45 @@
+{
+  "title": "Frequently<br /> Asked Questions",
+  "items": [
+    {
+      "id": "01",
+      "question": "How long does it take to design and develop a website?",
+      "answer": "The timeline depends on the size and complexity of the project. A standard business website usually takes 3–4 weeks, while larger or custom projects may take longer."
+    },
+    {
+      "id": "02",
+      "question": "Will the website design be custom or template based?",
+      "answer": "We offer both options based on your requirements. Custom designs are created specifically for your brand and business goals, while template-based solutions provide a faster and more cost-effective approach. We help you choose the best option based on your needs and budget."
+    },
+    {
+      "id": "03",
+      "question": "What post-launch support and maintenance services do you offer?",
+      "answer": "Our web development support doesn't end at launch. We offer continuous post-launch maintenance, including performance optimization, bug fixes, and security monitoring. Inter Smart ensures your website remains fast, secure, and up to date with evolving business and technology needs."
+    },
+    {
+      "id": "04",
+      "question": "Do you provide SEO with web design?",
+      "answer": "Yes, we follow SEO best practices to ensure your website is search-engine friendly from the start."
+    },
+    {
+      "id": "05",
+      "question": "How will the website help my business grow?",
+      "answer": "We design and develop websites focused on generating leads, improving user experience, and supporting your overall business growth."
+    },
+    {
+      "id": "06",
+      "question": "Which platforms and technologies does Inter Smart use for web development?",
+      "answer": "Inter Smart works with PHP, Python, Node, React, Angular, Next.js and Yii Framework, along with cloud platforms like Google Cloud, AWS and Microsoft Azure. The choice of technology depends on your requirements, including objectives, design style and features."
+    },
+    {
+      "id": "07",
+      "question": "How efficient and experienced are your web app developers?",
+      "answer": "Our team consists of highly skilled and experienced developers who follow industry best practices to deliver reliable, scalable, and high-performance websites tailored to your business needs."
+    },
+    {
+      "id": "08",
+      "question": "Can you develop websites for startups, SMEs, and large enterprises?",
+      "answer": "Absolutely. We develop scalable websites for enterprises, startups, and SMEs, ensuring flexibility for future expansion. Whether you need a simple business website or a complex enterprise platform, our web development services are designed to support businesses at every growth stage."
+    }
+  ]
+}

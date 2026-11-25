@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "title": "Lokales Marketing",
+    "thumb_label": "Lokales Marketing",
+    "icon": "images/service-thumb-1.svg",
+    "features": [
+      {
+        "title": "Google-Unternehmensprofil",
+        "txt": "Wir richten Ihr Profil vollständig ein und pflegen es, damit Sie bei Google Maps in Ihrer Umgebung weiter oben erscheinen."
+      },
+      {
+        "title": "Mehr Bewertungen",
+        "txt": "Wir bauen einen einfachen Ablauf auf, mit dem zufriedene Kunden Sie bewerten, und helfen Ihnen, auf Bewertungen zu antworten."
+      },
+      {
+        "title": "Einheitliche Einträge",
+        "txt": "Gleiche Angaben bei Google, Apple Karten, Gelbe Seiten und weiteren Verzeichnissen stärken Ihr Ranking vor Ort."
+      },
+      {
+        "title": "Anrufe und Anfragen messen",
+        "txt": "Sie sehen jeden Monat, wie viele Anrufe, Routenanfragen und Website-Besuche über Google kamen."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Lokales Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Google & Meta Ads"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Kunden seit 2011"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Unverbindlich anfragen",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 2,
+    "title": "SEO",
+    "thumb_label": "SEO",
+    "icon": "images/service-thumb-2.svg",
+    "features": [
+      {
+        "title": "Die richtigen Suchbegriffe",
+        "txt": "Wir finden heraus, wonach Ihre Kunden in Ihrer Region suchen, und richten Ihre Website darauf aus."
+      },
+      {
+        "title": "Inhalte, die gefunden werden",
+        "txt": "Texte, Seitenstruktur und Überschriften so aufgebaut, dass Google versteht, was Sie anbieten und wo."
+      },
+      {
+        "title": "Schnelle, fehlerfreie Website",
+        "txt": "Wir beheben technische Fehler und verkürzen Ladezeiten, denn langsame Seiten verlieren Besucher und Rankings."
+      },
+      {
+        "title": "Vertrauen bei Google aufbauen",
+        "txt": "Erwähnungen und Verlinkungen von regionalen Seiten zeigen Google, dass Ihr Unternehmen vor Ort relevant ist."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Lokales Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Google & Meta Ads"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Kunden seit 2011"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Unverbindlich anfragen",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Google & Meta Ads",
+    "thumb_label": "Google & Meta Ads",
+    "icon": "images/service-thumb-3.svg",
+    "features": [
+      {
+        "title": "Anzeigen für Suchende mit Bedarf",
+        "txt": "Ihre Anzeige erscheint, wenn jemand in Ihrer Region gerade nach Ihrer Leistung sucht."
+      },
+      {
+        "title": "Nur in Ihrem Einzugsgebiet",
+        "txt": "Wir begrenzen die Anzeigen auf Ihre Region, damit kein Budget außerhalb versickert."
+      },
+      {
+        "title": "Laufend verbessert",
+        "txt": "Wir prüfen regelmäßig Suchbegriffe und Anzeigen und streichen, was keine Anfragen bringt."
+      },
+      {
+        "title": "Klarer Monatsbericht",
+        "txt": "Sie sehen, was eine Anfrage gekostet hat und woher sie kam – verständlich, ohne Fachbegriffe."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Lokales Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Google & Meta Ads"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Kunden seit 2011"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Unverbindlich anfragen",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Social Media",
+    "thumb_label": "Social Media",
+    "icon": "images/service-thumb-4.svg",
+    "features": [
+      {
+        "title": "Content, der zu Ihnen passt",
+        "txt": "Wir planen und erstellen regelmäßig Content, der zeigt, was Ihr Unternehmen ausmacht."
+      },
+      {
+        "title": "Kommentare und Nachrichten",
+        "txt": "Wir helfen Ihnen, schnell und freundlich auf Kommentare und Nachrichten zu reagieren."
+      },
+      {
+        "title": "Bekannt in Ihrer Region",
+        "txt": "Lokal ausgespielte Beiträge und Anzeigen machen Sie bei Menschen in Ihrer Umgebung bekannt."
+      },
+      {
+        "title": "Performance Bericht",
+        "txt": "Monatliche Auswertung, welcher Content Reichweite und Anfragen gebracht hat."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Lokales Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Google & Meta Ads"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Kunden seit 2011"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "abgeschlossene Projekte"
+      }
+    ],
+    "button": {
+      "label": "Unverbindlich anfragen",
+      "link": "#Expert"
+    }
+  }
+]

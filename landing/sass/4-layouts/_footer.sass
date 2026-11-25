@@ -1,0 +1,515 @@
+//FOOTER
+/************ ****** ************/
+/************ FOOTER ************/
+/************ ****** ************/
+footer
+    background: $black
+    padding-bottom: 40px
+    position: relative
+    @media only screen and (min-width: 576px)
+        padding-bottom: 0
+    %ftTxt
+        font-size: 13px
+        line-height: 1.2
+        font-weight: 200
+        font-family: $fontstack1
+        color: $white
+        @media only screen and (min-width: 576px)
+            font-size: 15px
+    .FooterBG
+        background-position: center !important
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        z-index: 0
+    .FootMainWrp
+        position: relative
+        z-index: 1
+        padding: 30px 0 28px
+        @media only screen and (min-width: 468px)
+            padding: 40px 0 35px
+        @media only screen and (min-width: 576px)
+            border-bottom: 1px solid rgba(112, 112, 112, 0.37)
+            padding: 60px 0 40px
+        @media only screen and (min-width: 768px)
+            padding: 80px 0 40px
+        @media only screen and (min-width: 1200px)
+            padding: 90px 0 60px
+        @media only screen and (min-width: 1441px)
+            padding: 100px 0 85px
+    .FootTop
+        width: 100%
+        height: auto
+        display: block
+        @media only screen and (min-width: 576px)
+            border-bottom: 1px solid rgba(112, 112, 112, 0.37)
+            padding-bottom: 20px
+            margin-bottom: 30px
+        @media only screen and (min-width: 768px)
+            padding-bottom: 30px
+            margin-bottom: 30px
+        @media only screen and (min-width: 1200px)
+            padding-bottom: 60px
+            margin-bottom: 50px
+        @media only screen and (min-width: 1441px)
+            padding-bottom: 80px
+            margin-bottom: 75px
+        .accordion
+            .accordion-item
+                border: none
+                background: none
+            .accordion-body
+                padding: 20px 8px
+                @media only screen and (min-width: 576px)
+                    padding: 0
+        .FootHead
+            color: #9062ef
+            border: none
+            border-radius: 0
+            background: none
+            outline: none !important
+            text-decoration: none !important
+            box-shadow: none !important
+            padding: 15px 0
+            font: 200 18px/28px $fontstack1
+            text-align: start
+            position: relative
+            @media only screen and (min-width: 576px)
+                color: #6785FF
+                padding: 0
+                padding-bottom: 15px
+                margin-bottom: 20px
+                pointer-events: none
+                font: 200 18px/28px $fontstack1
+                &::before
+                    content: ""
+                    position: absolute
+                    left: 0
+                    bottom: 0
+                    width: 57px
+                    height: 2px
+                    background: #6785FF
+            @media only screen and (min-width: 768px)
+                margin-bottom: 30px
+                font: 200 20px/28px $fontstack1
+            @media only screen and (min-width: 1200px)
+                font: 200 23px/28px $fontstack1
+                margin-bottom: 42px
+            @media only screen and (min-width: 1441px)
+                // margin-bottom: 55px
+                font: 200 28px/28px $fontstack1
+            &::after
+                background: none
+                content: "+"
+                position: absolute
+                top: 50%
+                right: 0
+                transform: translateY(-50%)
+                @include center
+                @media only screen and (min-width: 576px)
+                    display: none
+            &:not(.collapsed)
+                &::after
+                    content: "-"
+                    font-size: 24px
+            &.DeskHead
+                @media only screen and (max-width: 576px)
+                    display: none
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 50px
+            &.MobHead
+                @media only screen and (min-width: 576px)
+                    display: none
+            &.TalkToHead
+                color: #13D1FF
+                @media only screen and (min-width: 1441px)
+                    margin-bottom: 50px
+                &::before
+                    background: #13D1FF
+            &>br
+                display: none
+        .ftRow
+            margin: 0 -15px
+            @include display
+            &>*
+                padding: 0 15px
+                @media only screen and (min-width: 576px)
+                    padding: 15px
+            &>.ftCol
+                width: 100%
+                border-bottom: 1px solid rgba($white, .18)
+                @media only screen and (min-width: 576px)
+                    border: 0
+                &:nth-child(1)
+                    width: 100%
+                    @media only screen and (min-width: 992px)
+                        width: 75%
+                &:nth-child(2)
+                    width: 100%
+                    @media only screen and (min-width: 576px)
+                        width: 50%
+                    @media only screen and (min-width: 992px)
+                        width: 25%
+        li
+            &:not(:last-of-type)
+                margin-bottom: 15px
+        a, p
+            color: $white
+            display: flex
+            align-items: center
+            font: 200 13px $fontstack1
+            @media only screen and (min-width: 576px)
+                font: 200 15px $fontstack1
+        p
+            margin: 0
+            line-height: 28px
+            @media only screen and (min-width: 576px)
+                line-height: 34px
+            &>br
+                display: none
+        .branchRow
+            margin: -15px
+            @include display
+            &>*
+                padding: 15px
+            &>.Col
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 50%
+        .branchBx
+            width: 100%
+            height: auto
+            display: block
+            &.India
+                .LocationName
+                    color: #6785FF
+            &.UAE
+                .LocationName
+                    color: #13D1FF
+            &.CANADA
+                .LocationName
+                    color: #D1A601
+            .LocationName
+                font-weight: 500
+                margin-bottom: 15px
+                display: flex
+                align-items: center
+                text-transform: uppercase
+                font-size: 15px
+                @media only screen and (min-width: 576px)
+                    font-size: 18px
+                @media only screen and (min-width: 1441px)
+                    font-size: 21px
+                    margin-bottom: 20px
+                .flag
+                    max-width: 30px
+                    margin-right: 10px
+                    @media only screen and (min-width: 576px)
+                        max-width: 40px
+                        margin-right: 15px
+                    @media only screen and (min-width: 1441px)
+                        max-width: 60px
+                        margin-right: 20px
+                    img
+                        width: fit-content
+                        width: -moz-fit-content
+        .TalkToBx
+            width: 100%
+            height: auto
+            display: block
+            a
+                @extend %ftTxt
+                width: 100%
+                max-width: 268px
+                height: 40px
+                border: 1px solid $white
+                color: $white
+                @include center
+                @media only screen and (min-width: 576px)
+                    height: 50px
+                @media only screen and (min-width: 992px)
+                    height: 55px
+                &:hover
+                    background: #EE4880
+                .Icon
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    width: 20px
+                    margin-right: 13px
+                    svg
+                        fill: $white
+                        max-height: 20px
+    .FootMain
+        .FootHead
+            border: none
+            border-radius: 0
+            background: none
+            outline: none !important
+            text-decoration: none !important
+            box-shadow: none !important
+            padding: 15px 0
+            font: 200 18px/28px $fontstack1
+            position: relative
+            @media only screen and (min-width: 576px)
+                padding: 0
+                padding-bottom: 15px
+                margin-bottom: 20px
+                pointer-events: none
+                font: 200 18px/28px $fontstack1
+                &::before
+                    content: ""
+                    position: absolute
+                    left: 0
+                    bottom: 0
+                    width: 57px
+                    height: 2px
+            @media only screen and (min-width: 768px)
+                margin-bottom: 30px
+                font: 200 20px/28px $fontstack1
+            @media only screen and (min-width: 1200px)
+                font: 200 23px/28px $fontstack1
+                margin-bottom: 42px
+            @media only screen and (min-width: 1441px)
+                // margin-bottom: 55px
+                font: 200 28px/28px $fontstack1
+            &::after
+                background: none
+                content: "+"
+                position: absolute
+                top: 50%
+                right: 0
+                transform: translateY(-50%)
+                @include center
+                @media only screen and (min-width: 576px)
+                    display: none
+            &:not(.collapsed)
+                &::after
+                    content: "-"
+                    font-size: 24px
+        .accordion-body
+            padding: 7px 8px 30px
+            @media only screen and (min-width: 576px)
+                padding: 0
+        li
+            &:not(:last-of-type)
+                margin-bottom: 15px
+        a
+            color: $white
+            display: flex
+            align-items: center
+            font: 200 14px $fontstack1
+            @media only screen and (min-width: 576px)
+                font: 200 16px $fontstack1
+            @media only screen and (min-width: 1441px)
+                font: 200 18px $fontstack1
+        .Row
+            margin: 0 -15px
+            >*
+                padding: 0 15px
+                border: none
+                border-radius: 0
+                background: none
+                outline: none
+                width: 100%
+                border-bottom: 1px solid rgba(255, 255, 255, 0.18)
+                @media only screen and (max-width: 576px)
+                    &:last-child
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.18)
+                @media only screen and (min-width: 576px)
+                    border: none
+                    width: 50%
+                @media only screen and (min-width: 992px)
+                    width: 25%
+        .CompanY
+            @media only screen and (min-width: 576px)
+                margin-bottom: 50px
+            @media only screen and (min-width: 992px)
+                margin-bottom: 0
+                width: 20%
+            @media only screen and (min-width: 1441px)
+                width: 25%
+
+            .FootHead
+                color: #6785FF
+                &::before
+                    background: #6785FF
+            a
+                &:hover
+                    color: #6785FF
+                    svg
+                        fill: #6785FF
+        .Services
+            @media only screen and (min-width: 576px)
+                margin-bottom: 50px
+            @media only screen and (min-width: 992px)
+                margin-bottom: 0
+                width: 30%
+            @media only screen and (min-width: 1441px)
+                width: 25%
+            .FootHead
+                color: #13D1FF
+                &::before
+                    background: #13D1FF
+            a
+                &:hover
+                    color: #13D1FF
+                    svg
+                        fill: #13D1FF
+        .Connect
+            @media only screen and (min-width: 992px)
+                width: 25%
+            .FootHead
+                color: #FFCB02
+                &::before
+                    background: #FFCB02
+            li
+                &:not(:last-of-type)
+                    margin-bottom: 24px
+                    @media only screen and (min-width: 992px)
+                        margin-bottom: 30px
+            a
+                display: flex
+                .Icon
+                    width: 17px
+                    display: block
+                    margin-right: 15px
+                    @media only screen and (min-width: 576px)
+                        width: 22px
+                        margin-right: 15px
+                    @media only screen and (min-width: 992px)
+                        margin-right: 20px
+                    #fb
+                        width: 10px
+                        @media only screen and (min-width: 992px)
+                            width: 12.63px
+                    #Twit
+                        width: 20px
+                        @media only screen and (min-width: 992px)
+                            width: 22px
+                    #Insta
+                        width: 19px
+                        @media only screen and (min-width: 992px)
+                            width: 20.39px
+                    #linkdIn
+                        width: 18px
+                        @media only screen and (min-width: 992px)
+                            width: 19.08px
+                    #WazApp
+                        width: 21px
+                        @media only screen and (min-width: 992px)
+                            width: 22.39px
+                svg
+                    margin: auto
+                    transition: all .3s
+                    fill: #ffff
+                &:hover
+                    color: #FFCB02
+                    svg
+                        fill: #FFCB02
+        .OServices
+            @media only screen and (min-width: 992px)
+                width: 25%
+            .FootHead
+                color: #EE4880
+                &::before
+                    background: #EE4880
+            a
+                border: 1px solid #FFFFFF
+                max-width: 242px
+                display: flex
+                align-items: center
+                padding: 2px 15px
+                fill: $white
+                height: 45px
+                @media only screen and (min-width: 576px)
+                    height: 50px
+                    padding: 2px 30px
+                @media only screen and (min-width: 1441px)
+                    padding: 2px 40px
+                    height: 55px
+                .Icon
+                    margin-right: 15px
+                    width: 17px
+                    @media only screen and (min-width: 576px)
+                        width: 30px
+                    @media only screen and (min-width: 1441px)
+                        width: 36px
+                        margin-right: 20px
+                    svg
+                        max-width: 100%
+                        max-height: 100%
+                    #Behance
+                        width: 30px
+                        height: 30px
+                        @media only screen and (min-width: 1441px)
+                            width: 36px
+                            height: 36px
+                    #Glassdoor
+                        width: 26px
+                        height: 28px
+                        @media only screen and (min-width: 1441px)
+                            width: 30px
+                            height: 30px
+                    #Clutch
+                        width: 22px
+                        height: 25px
+                        @media only screen and (min-width: 1441px)
+                            width: 28px
+                            height: 33px
+                    #Dribbble
+                        width: 25px
+                        height: 25px
+                        @media only screen and (min-width: 1441px)
+                            width: 28px
+                            height: 28px
+                &:hover
+                    background: #EE4880
+    .CopYRit
+        position: relative
+        z-index: 1
+        padding: 0 0 20px
+        @media only screen and (min-width: 576px)
+            padding: 35px 0
+        *
+            font-weight: 200
+            color: #FFFFFF
+            font-size: 13px
+            text-align: center
+            @media only screen and (min-width: 468px)
+                font-size: 14px
+            @media only screen and (min-width: 992px)
+                text-align: start
+                font-size: 16px
+        .Row
+            justify-content: center
+            @media only screen and (min-width: 992px)
+                justify-content: space-between
+            >*
+                @media only screen and (max-width: 992px)
+                    width: 100%
+        .RSide
+            @media only screen and (max-width: 992px)
+                margin-top: 15px
+            ul
+                display: flex
+                align-items: center
+                margin: 0 -12.5px
+                @media only screen and (max-width: 992px)
+                    justify-content: center
+                li
+                    position: relative
+                    padding: 0 12.5px
+                    &:not(:first-of-type)
+                        &::before
+                            content: "/"
+                            position: absolute
+                            left: -2px
+                            top: 0
+                a
+                    &:hover
+                        color: $basecolor

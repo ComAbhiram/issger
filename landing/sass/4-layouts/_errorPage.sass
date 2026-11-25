@@ -1,0 +1,68 @@
+//ERROR_PAGE
+/******************ERROR_PAGE**********************/
+.errorPage
+    margin-top: var(--header-y)
+    section
+        position: relative
+    .row
+        margin: 0
+    .page_cntnt
+        padding: 20px 0
+        text-align: center
+        margin: auto
+        @media only screen and (min-width: 468px)
+            padding: 40px 0
+    .head_one
+        font-size: 69px
+        font-weight: 700
+        color: $basecolor2
+        letter-spacing: 1px
+        @media only screen and (min-width: 468px)
+            font-size: 95px
+
+    .head_two
+        font-size: 14px
+        letter-spacing: 1px
+        font-weight: 600
+        color: $text
+        margin-bottom: 20px
+        @media only screen and (min-width: 468px)
+            font-size: 20px
+            margin-bottom: 30px
+
+    .head_three
+        font-size: 16px
+        line-height: normal
+        letter-spacing: 1px
+        font-weight: 600
+        color: $text
+        margin-bottom: 15px
+        @media only screen and (min-width: 468px)
+            font-size: 25px
+    %errorTxt
+        font-size: 14px
+        line-height: 1.4
+        font-weight: 400
+        color: $text
+        margin-bottom: 10px
+        @media only screen and (min-width: 576px)
+            font-size: 15px
+            margin-bottom: 15px
+        @media only screen and (min-width: 992px)
+            font-size: 16px
+            margin-bottom: 20px
+    p
+        @extend %errorTxt
+        margin: 0
+    .btn
+        margin: auto
+        margin-top: 15px
+        max-width: 220px
+        @media only screen and (min-width: 468px)
+            margin: auto
+            margin-top: 25px
+            max-width: 220px
+        @media only screen and (min-width: 1551px)
+            margin: auto
+            margin-top: 40px
+            max-width: 240px

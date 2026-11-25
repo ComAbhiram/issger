@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Our Process",
+  "items": [
+    {
+      "id": "01",
+      "title": "Listen & <br> Learn",
+      "text": "Our plans grow from understanding what you aim for and what’s holding you back. Knowing what counts for your company comes first before anything else."
+    },
+    {
+      "id": "02",
+      "title": "Shape the <br> Strategy",
+      "text": "With the picture clear, we map out a sharp plan: what to build, what to say, and how it all connects to leads, sales, and long-term brand value."
+    },
+    {
+      "id": "03",
+      "title": "Design the <br> Experience",
+      "text": "Now the story gets visuals. We turn the strategy into clean interfaces, strong messaging, and user journeys that feel natural, fast, and distinctly you."
+    },
+    {
+      "id": "04",
+      "title": "Launch & <br> Deployment",
+      "text": "When everything looks right and works right, we go live. Careful testing and smooth handover mean your new experience is ready to perform from day one."
+    },
+    {
+      "id": "05",
+      "title": "Refine & <br> Scale",
+      "text": "After launch, we watch the numbers, improve what works, fix what doesn’t, and help you scale the results across your digital footprint."
+    },
+    {
+      "id": "06",
+      "title": "Launch & <br> Deployment",
+      "text": "When everything looks right and works right, we go live. Careful testing and smooth handover mean your new experience is ready to perform from day one."
+    }
+  ]
+}

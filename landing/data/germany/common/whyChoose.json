@@ -1,0 +1,196 @@
+{
+  "mainTitle": "Warum wir",
+  "testimonial": {
+    "title": "Kundenstimmen",
+    "description": "Über 1.500 Unternehmen haben uns seit 2011 ihr Projekt anvertraut.",
+    "sideTitle": "1.500+ Kunden",
+    "textTestimonials": [
+      {
+        "quote": "Ich bin begeistert von Inter Smart Technologies! Das professionelle Team verfügt über beeindruckende Fachkenntnisse und versteht es hervorragend, die Wünsche und Anforderungen seiner Kunden zu erfassen und umzusetzen. Von unserem ersten Kontakt bis zum erfolgreichen Abschluss des Projekts waren ihr Engagement und ihre Kompetenz in jeder Phase deutlich spürbar. Die Präzision und der Anspruch, herausragende Ergebnisse zu erzielen, sind wirklich bemerkenswert. Ihre maßgeschneiderten Lösungen und ihre konsequente Kundenorientierung heben sie deutlich von anderen Anbietern ab. Ich kann Inter Smart Technologies uneingeschränkt weiterempfehlen. Das Unternehmen ist die erste Wahl für alle, die erstklassigen Service, innovative Lösungen und ein hervorragendes Preis-Leistungs-Verhältnis suchen!",
+        "name": "Hilker Consulting",
+        "designation": "",
+        "image": "images/placeholder.webp"
+      },
+      {
+        "quote": "Wir haben mit Inter Smart Technologies in Düsseldorf zusammengearbeitet, um unseren internen App-Entwickler zu unterstützen, und ihre Expertise war dabei von unschätzbarem Wert. Das Team bot uns erstklassige Beratung und technische Unterstützung und half uns dabei, die Funktionalität und Leistungsfähigkeit unserer App weiter zu verbessern. Dabei teilten sie wertvolle Einblicke, hilfreiche Tipps zur Fehlerbehebung und fortschrittliche Lösungsansätze, die unseren Entwicklungsprozess erheblich optimierten. Dank ihrer Unterstützung konnte unser interner Entwickler technische Herausforderungen erfolgreich meistern und innovative Funktionen deutlich effizienter implementieren. Wenn Sie auf der Suche nach professioneller Unterstützung für Ihr App-Entwicklungsteam sind, kann ich Inter Smart Technologies uneingeschränkt empfehlen!",
+        "name": "Administration SUEPO",
+        "designation": "The Hague",
+        "image": "images/placeholder.webp"
+      },
+      {
+        "quote": "Absolut begeistert von Inter Smart Technologies! Das Team überzeugt durch höchste Professionalität, schnelle Reaktionszeiten und ein tiefes Verständnis für die individuellen Anforderungen seiner Kunden. Von der ersten Kontaktaufnahme bis zur erfolgreichen Umsetzung merkt man, dass hier mit viel Leidenschaft und Fachwissen gearbeitet wird. Die Liebe zum Detail und das Engagement für perfekte Ergebnisse sind wirklich beeindruckend. Ich kann Intersmart uneingeschränkt empfehlen – wer auf der Suche nach exzellentem Service und maßgeschneiderten Lösungen ist, ist hier genau richtig!",
+        "name": "MS Global Services",
+        "designation": "",
+        "image": "images/placeholder.webp"
+      }
+    ],
+    "videoTestimonials": [],
+    "clients": [
+      "images/reisemobilelogo.png",
+      "images/logo-innovation.png",
+      "images/byd-logo_.png",
+      "images/Ford-logo.png",
+      "images/Gems logo.png",
+      "images/majid-al-futtaim logo.png",
+      "images/yokohama-logo.png",
+      "images/ufc-gym-logo.png",
+      "images/Lincon-Logo.png"
+    ]
+  },
+  "awards": {
+    "title": "Auszeichnungen",
+    "description": "Unsere Arbeit wurde von unabhängigen Plattformen ausgezeichnet.",
+    "sideTitle": "Ausgezeichnet",
+    "items": [
+      {
+        "image": "images/award-6.svg",
+        "name": "German Web Awards",
+        "text": "Top-250-Agentur des Jahres 2025"
+      },
+      {
+        "image": "images/award-2.svg",
+        "name": "Clutch",
+        "text": "Top Web Design Company 2026"
+      },
+      {
+        "image": "images/award-4.svg",
+        "name": "Clutch",
+        "text": "Global Spring 2024"
+      },
+      {
+        "image": "images/award-5.svg",
+        "name": "Goodfirms",
+        "text": "Top Digital Marketing Company"
+      }
+    ]
+  },
+  "technology": {
+    "title": "Kanäle & Werkzeuge",
+    "description": "Wir arbeiten mit den Werkzeugen, die für lokale Unternehmen zählen.",
+    "sideTitle": "Unsere Werkzeuge",
+    "technologies": [
+      {
+        "name": "Google Ads",
+        "icon": ""
+      },
+      {
+        "name": "Google-Unternehmensprofil",
+        "icon": ""
+      },
+      {
+        "name": "Google Analytics 4",
+        "icon": ""
+      },
+      {
+        "name": "Google Tag Manager",
+        "icon": ""
+      },
+      {
+        "name": "Search Console",
+        "icon": ""
+      },
+      {
+        "name": "Meta Ads",
+        "icon": ""
+      },
+      {
+        "name": "WordPress",
+        "icon": "images/tech-8.svg"
+      }
+    ],
+    "technologyInfo": [
+      {
+        "title": "Website",
+        "items": [
+          "Landingpages",
+          "Ladezeit",
+          "Optimierung für Smartphones"
+        ]
+      },
+      {
+        "title": "Marketing",
+        "items": [
+          "Google Ads",
+          "Meta Ads",
+          "lokales SEO",
+          "Social Media",
+          "Texte"
+        ]
+      }
+    ]
+  },
+  "whywwedifferent": {
+    "title": "Was uns unterscheidet",
+    "description": "Wir messen uns an Anfragen und Anrufen, nicht an Klicks.",
+    "sideTitle": "So arbeiten wir",
+    "items": {
+      "numberItems": [
+        {
+          "title": "Erst zuhören, dann werben",
+          "description": "Bevor ein Euro in Werbung fließt, verstehen wir, wer Ihre Kunden sind und warum sie bei Ihnen kaufen."
+        },
+        {
+          "title": "Website und Marketing aus einem Team",
+          "description": "Bremst die Website oder fehlt das Tracking, lösen wir das selbst – ohne weiteren Dienstleister."
+        },
+        {
+          "title": "Ergebnisse, die Sie verstehen",
+          "description": "Jeden Monat ein kurzer Bericht: Anfragen, Anrufe, Kosten pro Anfrage."
+        }
+      ],
+      "textItems": [
+        {
+          "title": "Klare Bedingungen",
+          "description": "Fester Monatspreis und ohne Festlaufzeit. Sie wissen vorher, was Sie erwartet."
+        },
+        {
+          "title": "Seit 2011 im Geschäft",
+          "description": "Über 2.150 abgeschlossene Projekte für mehr als 1.500 Kunden."
+        },
+        {
+          "title": "Betreuung, die weiterläuft",
+          "description": "Wir optimieren laufend weiter. Ihr Marketing wird nicht einmal eingerichtet und dann vergessen."
+        }
+      ]
+    }
+  },
+  "industries": {
+    "title": "Für wen wir arbeiten",
+    "description": "Für lokale Unternehmen, deren Kunden aus der Umgebung kommen.",
+    "sideTitle": "Lokale Unternehmen",
+    "industries": [
+      {
+        "name": "Handwerk",
+        "icon": "images/serve-6.svg"
+      },
+      {
+        "name": "Praxen & Gesundheit",
+        "icon": "images/serve-1.svg"
+      },
+      {
+        "name": "Gastronomie & Hotellerie",
+        "icon": "images/serve-7.svg"
+      },
+      {
+        "name": "Einzelhandel",
+        "icon": "images/serve-4.svg"
+      },
+      {
+        "name": "Immobilien",
+        "icon": "images/serve-2.svg"
+      },
+      {
+        "name": "Fitness & Wellness",
+        "icon": "images/serve-5.svg"
+      },
+      {
+        "name": "Autohäuser & Werkstätten",
+        "icon": "images/serve-10.svg"
+      },
+      {
+        "name": "Dienstleister",
+        "icon": "images/serve-9.svg"
+      }
+    ]
+  }
+}

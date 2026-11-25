@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "title": "Web Design",
+    "thumb_label": "Web Design",
+    "icon": "images/service-thumb-2.svg",
+    "features": [
+      {
+        "title": "Modern UI Design",
+        "txt": "As a leading web design company in Kochi, we create modern, custom interfaces that reflect your brand identity and leave a lasting first impression."
+      },
+      {
+        "title": "Mobile-First Layouts",
+        "txt": "Responsive website design in Kochi that delivers seamless experiences across desktops, tablets, and mobile devices."
+      },
+      {
+        "title": "User-Focused Layouts",
+        "txt": "Strategic page structures designed by our web design agency Kochi to improve engagement, user experience, and conversions."
+      },
+      {
+        "title": "Brand Consistency",
+        "txt": "Consistent colors, typography, and visual elements that strengthen your brand across every page of your website."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Web Development",
+    "thumb_label": "Web Development",
+    "icon": "images/service-thumb-1.svg",
+    "features": [
+      {
+        "title": "Custom & Scalable Code",
+        "txt": "Our web development company Kochi builds clean, scalable solutions tailored to your business goals."
+      },
+      {
+        "title": "Fast & Secure Websites",
+        "txt": "Optimized code and secure architecture ensure your website development in Kochi delivers exceptional speed, reliability, and performance."
+      },
+      {
+        "title": "Secure & Scalable",
+        "txt": "Enterprise-grade security and scalable development to support your business as it grows."
+      },
+      {
+        "title": "System Integrations",
+        "txt": "Integrate CRMs, APIs, payment gateways, and third-party tools into your custom website with ease."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 3,
+    "title": "E-Commerce",
+    "thumb_label": "E-Commerce",
+    "icon": "images/service-thumb-3.svg",
+    "features": [
+      {
+        "title": "Seamless Shopping Experience",
+        "txt": "Build high-converting online stores with intuitive shopping experiences from a trusted website design company in Kochi."
+      },
+      {
+        "title": "Secure Payment Gateways",
+        "txt": "Safe and reliable payment integrations that increase customer confidence and improve checkout completion rates."
+      },
+      {
+        "title": "Inventory & Order Management",
+        "txt": "Simplify inventory, orders, and product management with powerful eCommerce solutions."
+      },
+      {
+        "title": "Conversion Rate Optimization",
+        "txt": "Conversion-focused layouts, upselling features, and strategic CTAs that help maximize online sales."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 4,
+    "title": "WordPress",
+    "thumb_label": "WordPress",
+    "icon": "images/service-thumb-4.svg",
+    "features": [
+      {
+        "title": "Custom WordPress Development",
+        "txt": "Custom WordPress websites designed by an experienced web design company in Kochi, built for speed, SEO, and performance."
+      },
+      {
+        "title": "Plugin Setup & Configuration",
+        "txt": "Expert plugin selection and configuration for enhanced functionality, security, and search engine optimization."
+      },
+      {
+        "title": "Easy Content Management",
+        "txt": "User-friendly admin panels that make updating your website simple without technical expertise."
+      },
+      {
+        "title": "Ongoing Maintenance & Support",
+        "txt": "Regular updates, backups, security monitoring, and ongoing support to keep your WordPress website running smoothly."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Shopify",
+    "thumb_label": "Shopify",
+    "icon": "images/shopify.svg",
+    "features": [
+      {
+        "title": "Custom Shopify Store Setup",
+        "txt": "Launch a high-performing Shopify store with a trusted web design agency Kochi, ready to sell from day one."
+      },
+      {
+        "title": "Brand-Aligned Storefront Design",
+        "txt": "Custom Shopify storefronts designed to showcase your brand and improve customer trust."
+      },
+      {
+        "title": "App Integration & Automation",
+        "txt": "Connect Shopify apps to automate operations, marketing, customer service, and business workflows."
+      },
+      {
+        "title": "Speed & SEO Optimization",
+        "txt": "Improve loading speed, Core Web Vitals, and search visibility with SEO-optimized Shopify development."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  }
+]

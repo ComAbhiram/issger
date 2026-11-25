@@ -1,0 +1,27 @@
+{
+  "header": {
+    "title": "Warum unsere Websites funktionieren",
+    "text": ""
+  },
+  "items": [
+    {
+      "title": "individuell entwickelt",
+      "text": "Keine Templates von der Stange. Wir entwickeln Ihre Website exakt nach Ihren Anforderungen, Ihrer Marke und Ihren Unternehmenszielen."
+    },
+    {
+      "title": "Als Business-Tool gedacht",
+      "text": "Ihre Website ist mehr als eine digitale Visitenkarte. Sie unterstützt Vertrieb, Marketing, Recruiting und Ihre gesamte digitale Wertschöpfung."
+    },
+    {
+      "title": "Performance, die man spürt",
+      "text": "Moderne Technologien und saubere Entwicklung sorgen für blitzschnelle Ladezeiten und eine optimale User Experience."
+    },
+      {
+      "title": "Standards inklusive",
+      "text": "SEO, Responsive Design und DSGVO-Konformität sind für uns keine Extras, sondern selbstverständlich."
+    }
+  ],
+  "strategyText": {
+    "title": "Wir entwickeln Websites für messbares Unternehmenswachstum"
+  }
+}

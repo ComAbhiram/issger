@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "360° Digital Marketing",
+    "thumb_label": "360° Digital Marketing",
+    "icon": "images/service-thumb-1.svg",
+    "features": [
+      {
+        "title": "Integrated Growth Strategy",
+        "txt": "A unified marketing approach combining SEO, ads, content, and social media."
+      },
+      {
+        "title": "Multi-Channel Visibility",
+        "txt": "Increase your brand presence across search engines, social platforms, and websites."
+      },
+      {
+        "title": "Data-Driven Decisions",
+        "txt": "Marketing strategies backed by analytics, user behavior, and performance insights."
+      },
+      {
+        "title": "Lead & Revenue Growth",
+        "txt": "Generate quality leads and drive sustainable business growth through digital channels."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Digital Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Performance Marketing"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media Marketing"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content Marketing"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      },
+      {
+        "image": "images/service-dm-7.jpeg",
+        "alt": "Marketing Automation"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 2,
+    "title": "SEO",
+    "thumb_label": "SEO",
+    "icon": "images/service-thumb-2.svg",
+    "features": [
+      {
+        "title": "Keyword Strategy",
+        "txt": "Identify and target high-value keywords your potential customers actively search."
+      },
+      {
+        "title": "On-Page Optimization",
+        "txt": "Optimize website content, structure, and metadata for better search visibility."
+      },
+      {
+        "title": "Technical SEO",
+        "txt": "Improve website performance, indexing, and crawlability for stronger rankings."
+      },
+      {
+        "title": "Authority Building",
+        "txt": "Build trust and credibility through quality backlinks and valuable content."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Digital Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Performance Marketing"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media Marketing"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content Marketing"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      },
+      {
+        "image": "images/service-dm-7.jpeg",
+        "alt": "Marketing Automation"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Performance Marketing",
+    "thumb_label": "Performance Marketing",
+    "icon": "images/service-thumb-3.svg",
+    "features": [
+      {
+        "title": "ROI-Focused Campaigns",
+        "txt": "Maximize advertising returns with strategic budget allocation and optimization."
+      },
+      {
+        "title": "Audience Targeting",
+        "txt": "Reach the right audience using demographics, interests, and behavioral data."
+      },
+      {
+        "title": "Conversion Optimization",
+        "txt": "Continuously improve campaigns to increase leads, sales, and overall performance."
+      },
+      {
+        "title": "Real-Time Reporting",
+        "txt": "Track campaign results with transparent reports and actionable performance insights."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Digital Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Performance Marketing"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media Marketing"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content Marketing"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      },
+      {
+        "image": "images/service-dm-7.jpeg",
+        "alt": "Marketing Automation"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Social Media Marketing",
+    "thumb_label": "Social Media Marketing",
+    "icon": "images/service-thumb-4.svg",
+    "features": [
+      {
+        "title": "Content Creation & Planning",
+        "txt": "Create engaging content tailored to your audience and business goals."
+      },
+      {
+        "title": "Community Engagement",
+        "txt": "Build meaningful relationships through consistent interaction and audience engagement."
+      },
+      {
+        "title": "Brand Awareness Growth",
+        "txt": "Expand your reach and strengthen brand recognition across social platforms."
+      },
+      {
+        "title": "Performance Tracking",
+        "txt": "Monitor engagement, growth, and campaign effectiveness with detailed analytics."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-dm-1.jpeg",
+        "alt": "Digital Marketing"
+      },
+      {
+        "image": "images/service-dm-2.jpeg",
+        "alt": "SEO"
+      },
+      {
+        "image": "images/service-dm-3.jpeg",
+        "alt": "Performance Marketing"
+      },
+      {
+        "image": "images/service-dm-4.jpeg",
+        "alt": "Social Media Marketing"
+      },
+      {
+        "image": "images/service-dm-5.jpeg",
+        "alt": "Content Marketing"
+      },
+      {
+        "image": "images/service-dm-6.jpeg",
+        "alt": "Analytics"
+      },
+      {
+        "image": "images/service-dm-7.jpeg",
+        "alt": "Marketing Automation"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  }
+]

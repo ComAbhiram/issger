@@ -1,0 +1,411 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "thumb_label": "Web Development",
+    "icon": "images/service-thumb-1.svg",
+    "features": [
+      {
+        "title": "Custom & Scalable Code",
+        "txt": "Clean & custom-made solutions built around your business goals and requirements."
+      },
+      {
+        "title": "Fast & Secure Websites",
+        "txt": "Optimized code and architecture for speed, reliability, and smooth user experiences."
+      },
+      {
+        "title": "Secure & Scalable",
+        "txt": "Built with strong security standards and ready to grow with your business."
+      },
+      {
+        "title": "System Integrations",
+        "txt": "Connect CRMs, APIs, payment gateways, and third-party tools with ease."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Web Design",
+    "thumb_label": "Web Design",
+    "icon": "images/service-thumb-2.svg",
+    "features": [
+      {
+        "title": "Modern UI Design",
+        "txt": "Custom interfaces crafted to reflect your brand identity and impress at first glance."
+      },
+      {
+        "title": "Mobile-First Layouts",
+        "txt": "Fully responsive designs that deliver a seamless experience across all devices."
+      },
+      {
+        "title": "User-Focused Layouts",
+        "txt": "Strategic page structures designed to improve engagement and increase conversions."
+      },
+      {
+        "title": "Brand Consistency",
+        "txt": "Unified colors, typography, and visual elements for a cohesive brand experience."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 3,
+    "title": "E Commerce",
+    "icon": "images/service-thumb-3.svg",
+    "thumb_label": "E Commerce",
+    "features": [
+      {
+        "title": "Seamless Shopping Experience",
+        "txt": "Intuitive product pages and checkout flows that reduce drop-offs and drive sales."
+      },
+      {
+        "title": "Secure Payment Gateways",
+        "txt": "Safe and seamless payment experiences that build customer trust."
+      },
+      {
+        "title": "Inventory & Order Management",
+        "txt": "Effortlessly manage products, inventory, and orders from one place."
+      },
+      {
+        "title": "Conversion Rate Optimization",
+        "txt": "Built-in upsell features, smart CTAs, and layout strategies to maximize your revenue."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 4,
+    "title": "WordPress",
+    "icon": "images/service-thumb-4.svg",
+    "thumb_label": "WordPress",
+    "features": [
+      {
+        "title": "Custom Theme Development",
+        "txt": "Tailor-made WordPress themes, no cookie-cutter templates, just your brand built right."
+      },
+      {
+        "title": "Plugin Setup & Configuration",
+        "txt": "The right plugins, properly configured for performance, SEO, and functionality."
+      },
+      {
+        "title": "Easy Content Management",
+        "txt": "Simple admin panel so your team can update pages, blogs, and media without any tech hassle."
+      },
+      {
+        "title": "Ongoing Maintenance & Support",
+        "txt": "Regular updates, backups, and security checks to keep your WordPress site running smoothly."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Shopify",
+    "icon": "images/shopify.svg",
+    "thumb_label": "Shopify",
+    "features": [
+      {
+        "title": "Custom Shopify Store Setup",
+        "txt": "From theme to checkout, we build your Shopify store ready to sell from day one."
+      },
+      {
+        "title": "Brand-Aligned Storefront Design",
+        "txt": "A visually distinctive store that stands out in your niche and builds instant trust."
+      },
+      {
+        "title": "App Integration & Automation",
+        "txt": "Connect the right Shopify apps to streamline operations, marketing, and customer service."
+      },
+      {
+        "title": "Speed & SEO Optimization",
+        "txt": "Faster load times and search-friendly structure to bring in more organic traffic and sales."
+      }
+    ],
+    "technologies": [
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      },
+      {
+        "image": "images/service-tech-1.svg",
+        "alt": "HTML5"
+      },
+      {
+        "image": "images/service-tech-2.svg",
+        "alt": "CSS3"
+      },
+      {
+        "image": "images/service-tech-3.svg",
+        "alt": "JavaScript"
+      },
+      {
+        "image": "images/service-tech-4.svg",
+        "alt": "PHP"
+      },
+      {
+        "image": "images/service-tech-5.svg",
+        "alt": "WordPress"
+      }
+    ],
+    "counters": [
+      {
+        "number": "1500",
+        "symbol": "+",
+        "title": "Happy Clients"
+      },
+      {
+        "number": "2150",
+        "symbol": "+",
+        "title": "Projects Delivered"
+      }
+    ],
+    "button": {
+      "label": "Find Out More",
+      "link": "#Expert"
+    }
+  }
+]

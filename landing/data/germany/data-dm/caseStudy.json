@@ -1,0 +1,71 @@
+{
+  "section": {
+    "smallTitle": "Cases",
+    "description": "Gute Kampagnen beginnen nicht mit Technik, sondern mit der Frage, wer Ihre Kunden wirklich sind."
+  },
+  "items": [
+    {
+      "title": "RS-Reisemobile GmbH",
+      "description": "<strong>232.799 € Umsatz in 21 Tagen – nachdem wir die richtige Zielgruppe gefunden hatten</strong><br><br>RS-Reisemobile wollte einen großen, hochpreisigen Wohnwagen ausschließlich über Online-Werbung verkaufen. Der letzte Verkauf lag drei Monate zurück.<br><br>Die ersten Kampagnen richteten sich an Familien und blieben ohne Ergebnis. Der Grund: Die meisten Familien haben gar nicht den Führerschein für ein Fahrzeug dieser Größe.<br><br>Im Gespräch mit dem Verkauf stellte sich heraus, wer das letzte Fahrzeug gekauft hatte: eine Schaustellerfamilie. Wir haben Landingpage, Anzeigen und ein kurzes Video auf genau diese Zielgruppe umgestellt.<br><br>Innerhalb von 21 Tagen nach der Umstellung wurden 5 Wohnwagen verkauft. Über 300 qualifizierte Anfragen kamen über Google und Meta.",
+      "logo": "images/reisemobilelogo.png",
+      "projectsCompleted": "232.799 €",
+      "projectsLabel": "Umsatz in 21 Tagen",
+      "sharedYears": "40x",
+      "sharedYearsLabel": "Return on Ad Spend bei 5.747 € Werbebudget",
+      "slides": [
+        "images/iss-0.jpg",
+        "images/iss2-1.jpg",
+        "images/iss2-2.jpg",
+        "images/iss2-3.jpg",
+        "images/iss2-4.jpg",
+        "images/iss2-5.jpg",
+        "images/iss2-6.jpg"
+      ],
+      "thumbSlides": [
+        "images/iss-0.jpg",
+        "images/iss2-1.jpg",
+        "images/iss2-2.jpg",
+        "images/iss2-3.jpg",
+        "images/iss2-4.jpg",
+        "images/iss2-5.jpg",
+        "images/iss2-6.jpg"
+      ],
+      "button": {
+        "text": "Sprechen Sie mit uns"
+      },
+      "projectIcon": "images/csv-dummy.svg"
+    },
+    {
+      "title": "Hilker Consulting",
+      "description": "<strong>Mehr Besucher über Google mit gezieltem SEO</strong><br><br>Hilker Consulting wollte online besser gefunden werden und mehr passende Besucher gewinnen.<br><br>Wir haben die Website technisch optimiert, Suchbegriffe mit Kaufabsicht recherchiert, Inhalte überarbeitet und die interne Verlinkung verbessert.<br><br>Laufende Auswertungen von Suchtrends und Nutzerverhalten zeigten, wo weitere Chancen lagen.<br><br>Das Ergebnis: bessere Rankings, mehr organische Sichtbarkeit und eine Grundlage für weiter wachsenden Traffic.",
+      "projectsCompleted": "34.700",
+      "projectsLabel": "Klicks",
+      "sharedYears": "4,49 Mio.",
+      "sharedYearsLabel": "Impressionen",
+      "slides": [
+        "images/iss-0.jpg",
+        "images/iss-1.jpg",
+        "images/iss-2.jpg",
+        "images/iss-3.jpg",
+        "images/iss-4.jpg",
+        "images/iss-5.jpg",
+        "images/iss-6.jpg",
+        "images/iss-7.jpg"
+      ],
+      "thumbSlides": [
+        "images/iss-0.jpg",
+        "images/iss-1.jpg",
+        "images/iss-2.jpg",
+        "images/iss-3.jpg",
+        "images/iss-4.jpg",
+        "images/iss-5.jpg",
+        "images/iss-6.jpg",
+        "images/iss-7.jpg"
+      ],
+      "button": {
+        "text": "Sprechen Sie mit uns"
+      },
+      "projectIcon": "images/csv-dummy.svg"
+    }
+  ]
+}

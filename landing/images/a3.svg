@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.391" height="74.452" viewBox="0 0 73.391 74.452">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #424242;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ffeee8;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #424242;
+      }
+
+      .cls-3 {
+        fill: #ffcb02;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="businessmen" transform="translate(-21.14 -16)">
+    <path id="Path_1248" data-name="Path 1248" class="cls-1" d="M347.207,250.759h14.9a9.236,9.236,0,1,0-14.894,0Z" transform="translate(-273.854 -186.271)"/>
+    <path id="Path_1250" data-name="Path 1250" class="cls-1" d="M48.067,30.7h14.9a9.236,9.236,0,1,0-14.894,0Z" transform="translate(-20.645)"/>
+    <path id="Path_1252" data-name="Path 1252" class="cls-2" d="M361.868,262.472c.129,0,.258,0,.385.009a7.928,7.928,0,0,0,7.154,5.468,7.927,7.927,0,1,1-7.541-5.478Z" transform="translate(-281.065 -208.626)"/>
+    <path id="Path_1253" data-name="Path 1253" class="cls-3" d="M328.323,379.76H339.68a7.323,7.323,0,0,1,7.3,7.3v10.547H321.02V387.061a7.323,7.323,0,0,1,7.3-7.3Z" transform="translate(-253.2 -307.906)"/>
+    <path id="Path_1254" data-name="Path 1254" class="cls-1" d="M117.622,80.143a.921.921,0,0,1,0-1.843h17.82a12.786,12.786,0,0,1,12.752,12.752v4.933a.921.921,0,0,1-1.843,0V91.052a10.946,10.946,0,0,0-10.909-10.909Zm9.6,52.448a.921.921,0,1,1,0,1.843H113.172a12.786,12.786,0,0,1-12.752-12.752v-5.964a.921.921,0,1,1,1.843,0v5.964a10.946,10.946,0,0,0,10.909,10.909Z" transform="translate(-66.472 -52.734)"/>
+    <path id="Path_1255" data-name="Path 1255" class="cls-2" d="M62.728,42.412c.129,0,.258,0,.385.009a7.928,7.928,0,0,0,7.154,5.468,7.927,7.927,0,1,1-7.541-5.478Z" transform="translate(-27.857 -22.355)"/>
+    <path id="Path_1256" data-name="Path 1256" class="cls-3" d="M29.191,159.7H40.549a7.323,7.323,0,0,1,7.3,7.3v10.547H21.89V167A7.323,7.323,0,0,1,29.191,159.7Z" transform="translate(0 -121.636)"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "title": "Häufig Gestellte Fragen",
+  "items": [
+    {
+      "id": "01",
+      "question": "Wie lange dauert die Entwicklung einer Website?",
+      "answer": "Der Zeitrahmen hängt von Umfang und Komplexität des Projekts ab. Eine Fast Launch Website ist in der Regel innerhalb von 7–14 Arbeitstagen fertiggestellt und live. Umfangreichere Projekte dauern meist zwischen 30 und 60 Arbeitstagen."
+    },
+    {
+      "id": "02",
+      "question": "Wird die Website individuell gestaltet oder auf Basis eines Templates?",
+      "answer": "Wir bieten beide Optionen – abhängig von Ihren Anforderungen. Individuelle Designs werden speziell für Ihre Marke und Unternehmensziele entwickelt, während Template-basierte Lösungen einen schnelleren und kosteneffizienteren Ansatz bieten. Gemeinsam finden wir die beste Lösung für Ihre Anforderungen und Ihr Budget."
+    },
+    {
+      "id": "03",
+      "question": "Welchen Support und welche Wartungsleistungen bieten Sie nach dem Launch an?",
+      "answer": "Unser Support endet nicht mit dem Launch. Wir bieten kontinuierliche Wartung, einschließlich Performance-Optimierung, Fehlerbehebung und Sicherheitsmonitoring. Inter Smart stellt sicher, dass Ihre Website schnell, sicher und stets auf dem neuesten Stand der technischen und geschäftlichen Anforderungen bleibt."
+    },
+    {
+      "id": "04",
+      "question": "Bieten Sie SEO im Rahmen der Webentwicklung an?",
+      "answer": "Ja. Wir setzen bewährte SEO-Best-Practices ein, damit Ihre Website von Anfang an suchmaschinenoptimiert ist und eine solide Grundlage für langfristige Sichtbarkeit bietet."
+    },
+    {
+      "id": "05",
+      "question": "Wie wird die Website meinem Unternehmen beim Wachstum helfen?",
+      "answer": "Wir gestalten und entwickeln Websites, die darauf ausgerichtet sind, qualifizierte Anfragen zu generieren, die Nutzererfahrung zu verbessern und Ihr Unternehmenswachstum nachhaltig zu unterstützen."
+    },
+    {
+      "id": "06",
+      "question": "Welche Plattformen und Technologien verwendet Inter Smart für die Webentwicklung?",
+      "answer": "Inter Smart arbeitet mit PHP, Python, Node.js, React, Angular, Next.js und dem Yii Framework sowie mit Cloud-Plattformen wie Google Cloud, AWS und Microsoft Azure. Die Wahl der Technologie richtet sich nach Ihren Anforderungen, Zielen, Designvorstellungen und gewünschten Funktionen."
+    },
+    {
+      "id": "07",
+      "question": "Wie erfahren und leistungsfähig sind Ihre Webentwickler?",
+      "answer": "Unser Team besteht aus hochqualifizierten und erfahrenen Entwicklern, die nach bewährten Branchenstandards arbeiten. Wir entwickeln zuverlässige, skalierbare und leistungsstarke Websites, die exakt auf die Anforderungen Ihres Unternehmens zugeschnitten sind."
+    },
+    {
+      "id": "08",
+      "question": "Ist Ihre Webentwicklung auch für Startups, KMU und Großunternehmen geeignet?",
+      "answer": "Absolut. Wir entwickeln skalierbare Websites für Großunternehmen, Startups und kleine sowie mittelständische Unternehmen. Ob Business-Website, Growth Website oder komplexe Enterprise-Plattform – unsere Lösungen sind flexibel und darauf ausgelegt, Ihr Unternehmen in jeder Wachstumsphase zu unterstützen."
+    }
+  ]
+}
